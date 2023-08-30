@@ -1,0 +1,75 @@
+baseURL = 'https://sciviscontest2023.github.io/'
+languageCode = 'en-us'
+title = '2023 IEEE SciVis Contest'
+theme = "hugo-whisper-theme"
+
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.55.0"
+
+# Controls how many words are printed in the content summary on the docs homepage.
+# See https://gohugo.io/content-management/summaries/
+summaryLength = 30
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Data"
+    url = "/data/"
+    weight = 2
+
+[[menu.main]]
+    name = "Tasks"
+    url = "/tasks/"
+    weight = 3
+
+[[menu.main]]
+    name = "Submission"
+    url = "/submission/"
+    weight = 4
+
+[[menu.main]]
+    name = "Google Group"
+    url = "https://groups.google.com/g/scivis2023"
+    weight = 5
+
+[[menu.main]]
+    name = "Past SciVis Contests"
+    url = "/past-submissions/"
+    weight = 6
+
+[params]
+  google_analytics_id=""
+  homepage_button_link = '/data#Download Data'
+  homepage_button_text = 'Download the Data'
+  homepage_intro = 'This is a test'
+  # homepage_image = '/images/terminal.gif'
+  mainSections = ["data", "tasks", "submission", "past-submissions"]
+
+  ## You can enable to add anchor links to header elements
+  # enable_anchor_link = true
+
+  [params.homepage_meta_tags]
+    meta_description = "2023 IEEE SciVis Contest"
+    meta_og_title = "2023 IEEE SciVis Contest"
+    meta_og_type = "website"
+    meta_og_url = "https://sciviscontest2023.github.io/"
+    meta_og_image = "/images/brain.png"
+    meta_og_description = "IEEE SciVis Contest 2023"
+    meta_twitter_card = "summary"
+    meta_twitter_site = "@ieeevis"
+    meta_twitter_creator = "@ieeevis"
+
+  [params.logo]
+      # mobile = "/images/logo-mobile.svg"
+      # standard  = "/images/logo.svg"
+      mobile = "/images/brain.png"
+      standard  = "/images/brain.png"
