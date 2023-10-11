@@ -1,6 +1,6 @@
-baseURL = 'https://sciviscontest2023.github.io/'
+baseURL = 'https://sciviscontest2024.github.io/'
 languageCode = 'en-us'
-title = '2023 IEEE SciVis Contest'
+title = '2024 IEEE SciVis Contest'
 theme = "hugo-whisper-theme"
 
 pygmentsCodeFences = true
@@ -38,7 +38,7 @@ summaryLength = 30
 
 [[menu.main]]
     name = "Google Group"
-    url = "https://groups.google.com/g/scivis2023"
+    url = "https://groups.google.com/g/scivis2024"
     weight = 5
 
 [[menu.main]]
@@ -58,12 +58,12 @@ summaryLength = 30
   # enable_anchor_link = true
 
   [params.homepage_meta_tags]
-    meta_description = "2023 IEEE SciVis Contest"
-    meta_og_title = "2023 IEEE SciVis Contest"
+    meta_description = "2024 IEEE SciVis Contest"
+    meta_og_title = "2024 IEEE SciVis Contest"
     meta_og_type = "website"
-    meta_og_url = "https://sciviscontest2023.github.io/"
-    meta_og_image = "/images/brain.png"
-    meta_og_description = "IEEE SciVis Contest 2023"
+    meta_og_url = "https://sciviscontest2024.github.io/"
+    meta_og_image = "/images/Logo.png"
+    meta_og_description = "IEEE SciVis Contest 2024"
     meta_twitter_card = "summary"
     meta_twitter_site = "@ieeevis"
     meta_twitter_creator = "@ieeevis"
@@ -71,5 +71,5 @@ summaryLength = 30
   [params.logo]
       # mobile = "/images/logo-mobile.svg"
       # standard  = "/images/logo.svg"
-      mobile = "/images/brain.png"
-      standard  = "/images/brain.png"
+      mobile = "/Logo.png"
+      standard  = "/Logo.png"

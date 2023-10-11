@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Data on 2023 IEEE SciVis Contest</title>
-    <link>https://sciviscontest2023.github.io/data/</link>
-    <description>Recent content in Data on 2023 IEEE SciVis Contest</description>
+    <title>Data on 2024 IEEE SciVis Contest</title>
+    <link>https://sciviscontest2024.github.io/data/</link>
+    <description>Recent content in Data on 2024 IEEE SciVis Contest</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Nov 2018 15:14:39 +1000</lastBuildDate><atom:link href="https://sciviscontest2023.github.io/data/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Nov 2018 15:14:39 +1000</lastBuildDate><atom:link href="https://sciviscontest2024.github.io/data/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Data Description</title>
-      <link>https://sciviscontest2023.github.io/data/datalocation/</link>
+      <link>https://sciviscontest2024.github.io/data/datalocation/</link>
       <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
       
-      <guid>https://sciviscontest2023.github.io/data/datalocation/</guid>
+      <guid>https://sciviscontest2024.github.io/data/datalocation/</guid>
       <description>Summary This data contains:
 ~50 GB data 4 simulation ensemble members Each members consists of 50 000 neurons Each node collects information about 12 parameters The simulation is run for 1,000,000 simulations steps Every 100th iteration step is sampled per node Please find more details in the readme.md.
 In-Detail Description Four simulations have been run based on neuron locations given by the same underlying human brain data (MEG 146129) provided within the human connectome database [ 6 ]and extended by additional neurons close to existing ones.</description>
@@ -20,19 +20,19 @@ In-Detail Description Four simulations have been run based on neuron locations g
     
     <item>
       <title>Download Data</title>
-      <link>https://sciviscontest2023.github.io/data/download/</link>
+      <link>https://sciviscontest2024.github.io/data/download/</link>
       <pubDate>Mon, 11 Feb 2019 19:30:08 +1000</pubDate>
       
-      <guid>https://sciviscontest2023.github.io/data/download/</guid>
+      <guid>https://sciviscontest2024.github.io/data/download/</guid>
       <description>None</description>
     </item>
     
     <item>
       <title>References and Acknowledgments</title>
-      <link>https://sciviscontest2023.github.io/data/references/</link>
+      <link>https://sciviscontest2024.github.io/data/references/</link>
       <pubDate>Mon, 11 Feb 2019 19:30:08 +1000</pubDate>
       
-      <guid>https://sciviscontest2023.github.io/data/references/</guid>
+      <guid>https://sciviscontest2024.github.io/data/references/</guid>
       <description>None</description>
     </item>
     

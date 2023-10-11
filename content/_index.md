@@ -1,23 +1,24 @@
 ---
-title: '2023 IEEE SciVis Contest'
-date: 2022-10-05T17:32:39+10:00
+title: '2024 IEEE SciVis Contest'
+date: 2023-10-11T17:32:39+10:00
 ---
 
-Neuronal Network Simulations of the Human Brain
+Sonar Imaging for Hydrothermal Systems
 
-![Animated Brain](/brainAnim.webp)
+{{< rawhtml >}}
+<img style="width:40%" src="Logo.png" />
+{{< /rawhtml >}}
 
-Welcome to the *2023 IEEE SciVis Contest* website.
+Welcome to the *2024 IEEE SciVis Contest* website.
 This contest is held annually as part of the [IEEE VIS Conference.](http://ieeevis.org)  
-In 2023, the conference and this contest will be held in Melbourne, Australia, and will focus on the visualization of  
- ***neuronal network simulations of plasticity changes in the human brain***.
+In 2024, the conference and this contest will be held in Tampa Bay, Florida, USA, and will focus on the visualization of  
+ ***Sonar Imaging for Hydrothermal Systems***.
 
 On this website, you can find information on the provided [data,](/data) the visualization [tasks,](/tasks) as well as the [submission process.](/submission)  
-If there still are questions, feel free to contact the [contest chairs](mailto:scivis_contest@ieeevis.org) or join the [Google Group.](https://groups.google.com/g/scivis2023).
+If there still are questions, feel free to contact the [contest chairs](mailto:scivis_contest@ieeevis.org) or join the [Google Group.](https://groups.google.com/g/scivis2024).
 
-**The deadline has been extended to August 7**.
 
-###### Watch a video from IEEE VIS 2022 presenting the data and tasks:
+###### Watch a video from IEEE VIS 2024 presenting the data and tasks:
 
 
 {{< rawhtml >}}
@@ -29,4 +30,4 @@ If there still are questions, feel free to contact the [contest chairs](mailto:s
 
 ###### Contact
 Chair: Tim Gerrits, RWTH Aachen University, Germany - [contact via email](mailto:gerrits@vis.rwth-aachen.de)  
-Co-Chair: Divya Banesh, Los Alamos National Laboratory, USA - [contact via email](mailto:dbanesh@lanl.gov)
+Co-Chair: Karen Bemis, Department of Marine and Coastal Sciences, Rutgers University, USA - [contact via email](mailto:bemis@marine.rutgers.edu)
