@@ -71,5 +71,5 @@ summaryLength = 30
   [params.logo]
       # mobile = "/images/logo-mobile.svg"
       # standard  = "/images/logo.svg"
-      mobile = "/Logo.png"
-      standard  = "/Logo.png"
+      mobile = "/Logo_other color gradient.png"
+      standard  = "/Logo_other color gradient.png"

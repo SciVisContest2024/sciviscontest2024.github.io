@@ -6,7 +6,7 @@ date: 2023-10-11T17:32:39+10:00
 Sonar Imaging for Hydrothermal Systems
 
 {{< rawhtml >}}
-<img style="width:40%" src="Logo.png" />
+<img style="width:40%" src="Logo_other color gradient.png" />
 {{< /rawhtml >}}
 
 Welcome to the *2024 IEEE SciVis Contest* website.
