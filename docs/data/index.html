@@ -4,14 +4,14 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Data - 2023 IEEE SciVis Contest</title>
+  <title>Data - 2024 IEEE SciVis Contest</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  <link rel="icon" href="https://sciviscontest2023.github.io/favicon.png">
+  <link rel="icon" href="https://sciviscontest2024.github.io/favicon.png">
 
   
   
-  <link rel="stylesheet" href="/css/style.min.1558d52a028ff5be49e3d7ae5de985344bb3adc106be532078fe4ba76ad32cb1.css">
+  <link rel="stylesheet" href="/css/style.min.db7475b6db0fdaa1427f4fed2471ff6271a0ad713e53679de8ada5ff64b6a75c.css">
   
 
   
@@ -48,7 +48,7 @@
     </li>
     
     <li class="menu-item-google group">
-      <a href="https://groups.google.com/g/scivis2023"  target="_blank">
+      <a href="https://groups.google.com/g/scivis2024"  target="_blank">
         <span>Google Group</span>
       </a>
     </li>
@@ -65,10 +65,10 @@
     <div class='header'>
   <div class="container">
     <div class="logo">
-      <a href="https://sciviscontest2023.github.io/"><img alt="Logo" src="/images/brain.png" /></a>
+      <a href="https://sciviscontest2024.github.io/"><img alt="Logo" src="/Logo_other%20color%20gradient.png" /></a>
     </div>
     <div class="logo-mobile">
-      <a href="https://sciviscontest2023.github.io/"><img alt="Logo" src="/images/brain.png" /></a>
+      <a href="https://sciviscontest2024.github.io/"><img alt="Logo" src="/Logo_other%20color%20gradient.png" /></a>
     </div>
     <div id="main-menu" class="main-menu">
   <ul>
@@ -99,7 +99,7 @@
     </li>
     
     <li class="menu-item-google group">
-      <a href="https://groups.google.com/g/scivis2023"  target="_blank">
+      <a href="https://groups.google.com/g/scivis2024"  target="_blank">
         <span>Google Group</span>
       </a>
     </li>
@@ -173,27 +173,29 @@
   
   <p>If you want to skip the background for now, go and <a href="#Download Data">download the data</a>
  directly.</p>
-<p>This year&rsquo;s contest deals with the simulation of activity within the human brain, especially the changes within its network structure. Current understanding suggests, that a large amount of connections between neurons via synapses is constantly changing, leading to alteration of brain functionality. This includes positive effects such as the creation of memories <a href="#References and Acknowledgments">[ 1 ]</a>
- or negative ones such as limitations caused by accidents or illnesses <a href="#References and Acknowledgments">[ 2 ]</a>
-.<br>
-To understand these effects on a neuronal level, scientists hope to artificially recreate networks that work similarly to the human brain with the help of simulation models. The data provided in this contest is based on clinical measurements of actual human brains as well as the <strong>Model of Structural Plasticity</strong> by Butz &amp; Van Ooyen <a href="#References and Acknowledgments">[ 2 ]</a>
- which can be coarsely summarized as follows:</p>
-<p>The brain is modeled by a <strong>network of neurons</strong>.
-Each neuron is represented by a <strong>node</strong> with a number of properties such as <strong>location</strong>, <strong>calcium concentration</strong>, and <strong>target calcium concentration</strong>.
-It can further carry axonal (&ldquo;plugs&rdquo;) and dendritic (&ldquo;sockets&rdquo;) <strong>elements</strong>.
-If two neurons are spatially close and exhibit unused complementary elements, they have a probability to form a <strong>synapse</strong>, which is represented by a connection in the network through which electric energy can be passed from one neuron to another if it &ldquo;fires&rdquo; based on external input and the Izhikevich model <a href="#References and Acknowledgments">[ 3 ]</a>
-.
-When a neuron fires, its calcium level increases only to decrease again over time.
-In this model, neurons aim to reach a certain target calcium concentration based on their current calcium level. To achieve this, it either seeks to increase or decrease the level of incoming electrical activity resulting in the <strong>addition</strong> or <strong>removal</strong> of elements, which, in turn, leads to the formation, rewiring, or deletion of synapses.<br>
-Thus, in each simulation step, each neuron calculates its energy income and calcium level based on this model, followed by the addition or deletion of elements, leading to changes in the network structure. This can be repeated until the system has reached a stable configuration or stopped on demand.</p>
-<p>The following animation shows a simple visualization of a similar dataset:
-The neurons are represented as spheres at the appropriate locations and colored by their current calcium level.</p>
-<p><img src="/spheres.webp" alt="Animated Brain"></p>
-<p>On the <a href="/">front page</a>
- you can also see a visualization containing line renderings of ingoing connections (synapses) of the same dataset.</p>
-<p>Visualization can help to understand these processes (see, e.g., <a href="#References and Acknowledgments">[ 4 ]</a>
-). Therefore, the goal of this contest is to enable domain scientists as well as simulation scientists to better evaluate their models, compare, and explore the simulation results. 
-Based on this, we have provided a list of visualization <a href="%5ctasks">tasks</a>
+<p>This year&rsquo;s contest deals with the Visualization of Sonar Imaging data for Hydrothermal Systems.
+A team of scientists from Rutgers and UW have developed acoustic imaging methods to detect hydrothermal discharge, quantify volume or areal fluxes, and estimate heat contents of discharge from deep sea hot springs.  Deep sea hot springs discharge both focused high temperature fluids at black (and white) smokers to produce buoyant plumes and diffuse lower temperature fluids from a broad area of cracks and other features in the seafloor.  As part of this, we built and deployed the Cabled Observatory Vent Imaging Sonar, usually called COVIS.  COVIS had three modes of operation: discharge mapping, plume imaging, and plume velocity detection.  The plume imaging and plume velocity detection produced fully 3D observational volume data sets.  COVIS imaging operated by sending sound out into the water column and listening for the reflections and backscattering from particles and discontinuities (technically impedance contrasts) in the water.  COVIS was based on a standard multibeam sonar so each outward ping yielded a plane of data.  Mechanical rotation pivoted this plane vertically through the water column to provide full 3D imaging.  Most of the backscatter observed is believed to result from temperature fluctuations that change both density and compressibility.</p>
+
+
+<img src="/image1.gif" alt="Animation of COVIS data" class="matlab">
+<p style="color: grey;">A month of COVIS imaging data (Oct 2019) is combined with bathymetry to showcase some of the variations and changes that occur over a month. This is an overlay of three isosurfaces (blue, purple, red) of the imaging data onto a base surface (green).</p>
+
+<p>COVIS uses sonar to capture information about hot fluids discharging at the seafloor <a href="#References and Acknowledgments">[ 1 ]</a>
+.  Sonar is like radar only using sound.  Sound is sent out actively; it scatters or backscatters off of density and impedance contrasts (related to compressibility) and returns. Known scatterers include temperature contrasts, density contrasts, and particulates.  Rapid fluctuations in temperature are believed to be the main scatterers in hydrothermal plumes <a href="#References and Acknowledgments">[ 2 ]</a>
+. COVIS produces the following data products:</p>
+<ul>
+<li>Plume images are 3D volumes with the main variable the backscattering strength at every point within the volume.  The three dimensions come from the multiple beams of the sonar instrument, the travel time to the scatterers and back, and the rotation or movement of the sonar instrument through space.  See details in <a href="#References and Acknowledgments">[ 1 ]</a>
+. Raw data are in native coordinates (roughly spherical coordinates from the sonar receiver).  Processed data is interpolated onto a uniform rectangular grid.</li>
+<li>Plume doppler velocity estimates are also 3D volumes but with vertical velocity and backscattering strength as variables.  The initial processed values are line-of-sight velocities but the plume orientation is used to estimate the relative horizontal and vertical components.</li>
+<li>Diffuse maps are 2D datasets which map out the heat flux density or decorrelation intensity stemming from low temperature, low flow rate discharge on the seafloor.  This data differs in several ways: the recorded signal bounces off the seafloor, we are looking at travel time changes and ping-to-ping correlation of the signals, and the outgoing sound comes from a wide angle transmitter.  The processed data is interpolated onto the local bathymetry.</li>
+</ul>
+<p>COVIS imaging data is collected by rotating a multibeam sonar up and down from a horizontal base position.  The three dimensions then come from the multiple beams, the elevation angles of the physical rotation, and the travel time of the sound signal out to a scatterer and back to the sonar.</p>
+<p>The plume imaging data is intended to capture an overview of the structure, size and shape of the buoyant plume rising above the hot springs.  Of primary interest are capturing the response of the plume to local ocean currents (including tidal currents) and understanding the connections between the multiple points of discharge and the overall shaping of the plume or plumes present above the discharge. The anticipated decrease in backscatter intensity as the plume dilutes has the potential to additionally provide direct estimates of heat flux.</p>
+<p>Work with the first deployment of COVIS at Endeavour Ridge resulted in a paper that suggested that changes in the typical plume bending directions could be indicative of mid-ocean ridge segment scale changes in hydrothermal venting <a href="#References and Acknowledgments">[ 3 ]</a>
+.  Preliminary analysis of data from the second deployment at Axial Seamount observed great variation in the apparent merging of sources and overall plume structure.</p>
+<p>One of the major challenges in working with this data is extracting the plume and its centerline from a relatively undersampled volume.  There are two basic issues.  First, isosurfaces cross the plume centerline due to the increasing dilution as the plume rises and entrains seawater. Additionally, the plume shows lateral dilution.  Unless the surrounding ocean is very clean acoustically and the plume signal is much stronger than the base level of the sonar, defining a boundary for the plume is not straightforward.  Previous work used either multiple isosurfaces (Bemis et al., 2003) or fit Gaussian functions to slices perpendicular to the plume centerline <a href="#References and Acknowledgments">[ 1 ]</a>
+).  The second issue stems from the relative wispiness of a weak plume in a strong current combined with the relatively low spatial resolution of the acoustic data.  This results in disconnected isosurfaces and challenges in identifying the exact location of the centerline of the plume. A final note should mention that all the above assumes the analysis starts with the standard gridded data but that is an interpolation from the semi-structured raw data (composed of multiple planes or pings directed in a series of different angles of elevation).</p>
+<p>Based on this, we have provided a list of visualization <a href="%5ctasks">tasks</a>
  for this contest.</p>
 
 
@@ -215,243 +217,27 @@ Based on this, we have provided a list of visualization <a href="%5ctasks">tasks
   
   
   
-  <h6 id="summary">Summary</h6>
-<p>This data contains:</p>
-<ul>
-<li>~50 GB data</li>
-<li>4 simulation ensemble members</li>
-<li>Each members consists of 50 000 neurons</li>
-<li>Each node collects information about 12 parameters</li>
-<li>The simulation is run for 1,000,000 simulations steps</li>
-<li>Every 100th iteration step is sampled per node</li>
-</ul>
-<p>Please find more details in the <code>readme.md</code>.</p>
-<h4 id="in-detail-description">In-Detail Description</h4>
-<p>Four simulations have been run based on neuron locations given by the same underlying human brain data (MEG 146129) provided within the human connectome database <a href="#References and Acknowledgments">[ 6 ]</a>
- and extended by additional neurons close to existing ones. In the future, we plan on using more accurate models but these are not yet open for free use.
-Technical details on the simulation process can be found in <a href="#References and Acknowledgments">[ 7 ]</a>
- and <a href="#References and Acknowledgments">[ 8 ]</a>
-.
-Each simulation produces several text files sorted in their corresponding folder:</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">Simulation</th>
-<th style="text-align:left">Conditions:</th>
-<th style="text-align:left">Folder Name</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">1</td>
-<td style="text-align:left">0-calcium level at the start and equal target calcium level for all neurons, no existing connections</td>
-<td style="text-align:left">no-network</td>
-</tr>
-<tr>
-<td style="text-align:left">2</td>
-<td style="text-align:left">Lesion Simulation: Take the connection result of 1 and simulate with 10% neurons inactive (dead).</td>
-<td style="text-align:left">disable</td>
-</tr>
-<tr>
-<td style="text-align:left">3</td>
-<td style="text-align:left">Learning Simulation: Take the connection result of 1 and simulate learning (electric stimulation) of a specific area</td>
-<td style="text-align:left">stimulus</td>
-</tr>
-<tr>
-<td style="text-align:left">4</td>
-<td style="text-align:left">Take the connection result of 1 and use different target calcium levels for neurons</td>
-<td style="text-align:left">calcium</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left"></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>Some of the simulations have additional files, e.g., <code>calcium_targets.txt</code>,<code>disable.txt</code>, and <code>stimulus.txt</code> that include simulation specific information.</p>
-<p>As the simulation can be efficiently run on a cluster of computing nodes, MPI information is included within the files and names by a leading MPI Rank ID.</p>
-<p>Each folder has the same setup explained in the following:</p>
-<h6 id="network-layout">Network Layout</h6>
-<p>The base for the simulation is a neuronal network represented by point neurons.
-Each neuron has a <strong>Neuron ID</strong> that is unique to its <strong>MPI Rank ID</strong>. 
-The combination of both is then used throughout the simulation and data.</p>
-<p>The <strong>3D-position</strong> of each neuron can be found in <code>positions/rank_0_positions.txt</code>.<br>
-These are fixed and do not change.
-This file further contains <strong>labels</strong> explaining which part of the brain the neuron belongs to.
-<em>Note: These areas are set manually and are not based on medical accurate regions within the human brain.</em></p>
-<p>Ingoing as well as outgoing connections between nodes are sampled at different simulation steps and written in <code>network/&lt;MPI_RANK_ID&gt;_step_&lt;STEP&gt;_in_network.txt</code> and <code>network/&lt;MPI_RANK_ID&gt;_step_&lt;STEP&gt;_out_network.txt</code> respectively.</p>
-<h6 id="per-node-information">Per Node Information</h6>
-<p>The information about individual nodes is saved to <code>*.csv</code> files within <code>monitors.zip</code>.<br>
-Their naming convention is as follows: <code>&lt;MPI_RANK_ID&gt;_&lt;NEURON_ID - 1&gt;.csv</code>.<br>
-Each <strong>row</strong> within the file contains the per-node information at a sampled <strong>simulation step</strong>.</p>
-<p>The following parameters are listed:</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">Variable</th>
-<th style="text-align:left">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">Step</td>
-<td style="text-align:left">Sampled simulation step</td>
-</tr>
-<tr>
-<td style="text-align:left">Fired</td>
-<td style="text-align:left">Boolean: Did the neuron fire within the last sample step</td>
-</tr>
-<tr>
-<td style="text-align:left">Fired Fraction</td>
-<td style="text-align:left">In Percent: Number of firings since the last sampling</td>
-</tr>
-<tr>
-<td style="text-align:left">x</td>
-<td style="text-align:left">Electric Activity</td>
-</tr>
-<tr>
-<td style="text-align:left">Secondary Variable</td>
-<td style="text-align:left">Inhibition variable used for the firing model of Izhikevich</td>
-</tr>
-<tr>
-<td style="text-align:left">Calcium</td>
-<td style="text-align:left">Current calcium level</td>
-</tr>
-<tr>
-<td style="text-align:left">Target Calcium</td>
-<td style="text-align:left">Target calcium level</td>
-</tr>
-<tr>
-<td style="text-align:left">Synaptic Input</td>
-<td style="text-align:left">Input electrical activity</td>
-</tr>
-<tr>
-<td style="text-align:left">Background Activity</td>
-<td style="text-align:left">Background noise electric activity input</td>
-</tr>
-<tr>
-<td style="text-align:left">Grown Axons</td>
-<td style="text-align:left">Number of currently grown axonal boutons</td>
-</tr>
-<tr>
-<td style="text-align:left">Connected Axons</td>
-<td style="text-align:left">Number of current outgoing connections</td>
-</tr>
-<tr>
-<td style="text-align:left">Grown Excitatory Dendrites</td>
-<td style="text-align:left">Number of currently grown dendrite spines for excitatory connections</td>
-</tr>
-<tr>
-<td style="text-align:left">Connected Excitatory Dendrites</td>
-<td style="text-align:left">Number of incoming excitatory connections</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left"></td>
-</tr>
-</tbody>
-</table>
-<h6 id="simulation-information">Simulation Information</h6>
-<p>Each simulation run also saves some statistics:</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">File Name</th>
-<th style="text-align:left">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left"><code>neurons_overview.txt</code></td>
-<td style="text-align:left">Statistical summary sampled simulation steps</td>
-</tr>
-<tr>
-<td style="text-align:left"><code>plasticity_changes.txt</code></td>
-<td style="text-align:left">Summary of creation and deletions of connections</td>
-</tr>
-<tr>
-<td style="text-align:left"><code>stdcout.txt</code></td>
-<td style="text-align:left">Program output</td>
-</tr>
-<tr>
-<td style="text-align:left"><code>timers.txt</code></td>
-<td style="text-align:left">Timings</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left"></td>
-</tr>
-</tbody>
-</table>
-<h6 id="matlab-example-for-visualizing-nodes-and-connections">Matlab example for visualizing nodes and connections</h6>
-<p>This is a small hacked example of how to read node positions, incoming connections, and calcium value and plot the network in Matlab.</p>
-<p>The code example below should produce the following outcome:</p>
-
-
-<img src="/matlab2.png" alt="Matlab Plot" class="matlab">
-
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Matlab" data-lang="Matlab"><span class="line"><span class="cl"><span class="c">% Assuming the correct file locations have been set</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c">%%% First we read in nodes and their locations</span>
-</span></span><span class="line"><span class="cl"><span class="n">fileID</span> <span class="p">=</span> <span class="n">fopen</span><span class="p">(</span><span class="n">positionfilelocation</span><span class="p">,</span><span class="s">&#39;r&#39;</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c">% Read number of nodes:</span>
-</span></span><span class="line"><span class="cl"><span class="n">numOfNodes</span> <span class="p">=</span> <span class="n">fscanf</span><span class="p">(</span><span class="n">fileID</span><span class="p">,</span><span class="s">&#39;# %d&#39;</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl"><span class="n">fgetl</span><span class="p">(</span><span class="n">fileID</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c">% Read min max values:</span>
-</span></span><span class="line"><span class="cl"><span class="n">minMaxXYZ</span> <span class="p">=</span> <span class="n">fscanf</span><span class="p">(</span><span class="n">fileID</span><span class="p">,</span><span class="s">&#39;%*s %*s %*s %f&#39;</span><span class="p">,[</span><span class="mi">3</span><span class="p">,</span><span class="mi">2</span><span class="p">]);</span>
-</span></span><span class="line"><span class="cl"><span class="n">fgetl</span><span class="p">(</span><span class="n">fileID</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl"><span class="n">fgetl</span><span class="p">(</span><span class="n">fileID</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c">% Read positions, labels and type</span>
-</span></span><span class="line"><span class="cl"><span class="n">data</span> <span class="p">=</span> <span class="n">textscan</span><span class="p">(</span><span class="n">fileID</span><span class="p">,</span><span class="s">&#39;%*f %f %f %f %s&#39;</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl"><span class="n">fclose</span><span class="p">(</span><span class="n">fileID</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c">% Data containters</span>
-</span></span><span class="line"><span class="cl"><span class="n">positions</span> <span class="p">=</span> <span class="p">[</span><span class="n">data</span><span class="p">{</span><span class="mi">1</span><span class="p">}</span> <span class="n">data</span><span class="p">{</span><span class="mi">2</span><span class="p">}</span> <span class="n">data</span><span class="p">{</span><span class="mi">3</span><span class="p">}];</span>
-</span></span><span class="line"><span class="cl"><span class="n">labels</span> <span class="p">=</span> <span class="p">[</span><span class="n">data</span><span class="p">{</span><span class="mi">4</span><span class="p">}];</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c">%%% Now let&#39;s read the incoming connections:</span>
-</span></span><span class="line"><span class="cl"><span class="n">fileID</span> <span class="p">=</span> <span class="n">fopen</span><span class="p">(</span><span class="n">connectionInfilelocation</span><span class="p">,</span><span class="s">&#39;r&#39;</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl"><span class="n">fgetl</span><span class="p">(</span><span class="n">fileID</span><span class="p">);</span><span class="n">fgetl</span><span class="p">(</span><span class="n">fileID</span><span class="p">);</span><span class="n">fgetl</span><span class="p">(</span><span class="n">fileID</span><span class="p">);</span><span class="n">fgetl</span><span class="p">(</span><span class="n">fileID</span><span class="p">);</span><span class="n">fgetl</span><span class="p">(</span><span class="n">fileID</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl"><span class="n">inconnect</span> <span class="p">=</span> <span class="n">textscan</span><span class="p">(</span><span class="n">fileID</span><span class="p">,</span><span class="s">&#39;%f %f %f %f %f&#39;</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl"><span class="n">fclose</span><span class="p">(</span><span class="n">fileID</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c">%%% Read Calcium values:</span>
-</span></span><span class="line"><span class="cl"><span class="n">fileID</span> <span class="p">=</span> <span class="n">fopen</span><span class="p">(</span><span class="n">calciumfilelocation</span><span class="p">,</span><span class="s">&#39;r&#39;</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl"><span class="n">str</span> <span class="p">=</span> <span class="n">fgetl</span><span class="p">(</span><span class="n">fileID</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl"><span class="n">iterations</span> <span class="p">=</span> <span class="mi">0</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="n">calcium</span> <span class="p">=</span> <span class="nb">zeros</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="n">numOfNodes</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="nb">i</span> <span class="p">=</span> <span class="mi">1</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="k">while</span><span class="p">(</span><span class="n">str</span> <span class="o">~=</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="n">linedata</span> <span class="p">=</span> <span class="n">strsplit</span><span class="p">(</span><span class="n">str</span><span class="p">,</span><span class="s">&#39;;&#39;</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">    <span class="n">iterations</span><span class="p">(</span><span class="nb">i</span><span class="p">)</span> <span class="p">=</span> <span class="n">sscanf</span><span class="p">(</span><span class="n">linedata</span><span class="p">{</span><span class="mi">1</span><span class="p">},</span><span class="s">&#39;#%d&#39;</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">    <span class="n">calcium</span><span class="p">(</span><span class="nb">i</span><span class="p">,:)</span> <span class="p">=</span> <span class="n">str2double</span><span class="p">(</span><span class="n">linedata</span><span class="p">(</span><span class="mi">2</span><span class="p">:</span><span class="k">end</span><span class="p">));</span>
-</span></span><span class="line"><span class="cl">    <span class="nb">i</span> <span class="p">=</span> <span class="nb">i</span><span class="o">+</span><span class="mi">1</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="n">str</span> <span class="p">=</span> <span class="n">fgetl</span><span class="p">(</span><span class="n">fileID</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl"><span class="k">end</span>
-</span></span><span class="line"><span class="cl"><span class="n">fclose</span><span class="p">(</span><span class="n">fileID</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c">%%% Plot Nodes and incoming connections</span>
-</span></span><span class="line"><span class="cl"><span class="n">figure</span>
-</span></span><span class="line"><span class="cl"><span class="n">hold</span> <span class="n">on</span>
-</span></span><span class="line"><span class="cl"><span class="n">axis</span> <span class="n">vis3d</span>
-</span></span><span class="line"><span class="cl"><span class="n">view</span><span class="p">(</span><span class="mi">60</span><span class="p">,</span><span class="mi">8</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c">% plot ingoing connections:</span>
-</span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="nb">i</span><span class="p">=</span><span class="mi">1</span><span class="p">:</span><span class="nb">size</span><span class="p">(</span><span class="n">inconnect</span><span class="p">{</span><span class="mi">1</span><span class="p">},</span><span class="mi">1</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="n">startnodeid</span> <span class="p">=</span> <span class="n">inconnect</span><span class="p">{</span><span class="mi">2</span><span class="p">}(</span><span class="nb">i</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">    <span class="n">endnodeid</span> <span class="p">=</span> <span class="n">inconnect</span><span class="p">{</span><span class="mi">4</span><span class="p">}(</span><span class="nb">i</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">    <span class="n">line</span> <span class="p">=</span> <span class="p">[</span><span class="n">positions</span><span class="p">(</span><span class="n">startnodeid</span><span class="p">,:);</span><span class="n">positions</span><span class="p">(</span><span class="n">endnodeid</span><span class="p">,:)];</span>
-</span></span><span class="line"><span class="cl">    <span class="n">plot3</span><span class="p">(</span><span class="n">line</span><span class="p">(:,</span><span class="mi">1</span><span class="p">),</span><span class="n">line</span><span class="p">(:,</span><span class="mi">2</span><span class="p">),</span> <span class="n">line</span><span class="p">(:,</span><span class="mi">3</span><span class="p">),</span><span class="s">&#39;-k&#39;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="k">end</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c">% plot neuron locations</span>
-</span></span><span class="line"><span class="cl"><span class="n">plot3</span><span class="p">(</span><span class="n">positions</span><span class="p">(:,</span><span class="mi">1</span><span class="p">),</span><span class="n">positions</span><span class="p">(:,</span><span class="mi">2</span><span class="p">),</span><span class="n">positions</span><span class="p">(:,</span><span class="mi">3</span><span class="p">),</span><span class="s">&#39;.&#39;</span><span class="p">)</span>
-</span></span></code></pre></div><p><em><strong>Be warned: due to the number of nodes, plotting might be very slow on some machines.</strong></em></p>
+  <p>The PI Instrument page is found at <a href="https://oceanobservatories.org/pi-instrument/cabled-array-vent-imaging-sonar-covis/" target="_blank" target="_blank">https://oceanobservatories.org/pi-instrument/cabled-array-vent-imaging-sonar-covis/</a>
+ . This is the official description of COVIS for the Ocean Observatories Initiative (OOI).
+COVIS data from the OOI deployment can be found at  <a href="http://piweb.ooirsn.uw.edu/covis/" target="_blank" target="_blank">http://piweb.ooirsn.uw.edu/covis/</a>
+. This folder has two subfolders ~/covis/data/ and ~/covis/processed/.<br>
+The raw data is under ~/covis/data/ which contains ~BROWSE/, ~COVIS/, ~COVIS-ENG/, and ~INPUT/.  All COVIS raw data files come in a compressed file folder (&hellip;tar.gz).
+BROWSE - data organized in folders by year and julian day  (same data as in COVIS and INPUT but reorganized in folders rather than just a long list)
+COVIS - incoming data from 2018 to 2020
+COVIS-ENG &ndash; information on COVIS operations but only 2018-2020
+INPUT - incoming data from 2020 to 2023
+The processed data is under ~/covis/processed/
+2019 Thermistor Data/ - temperature data from small arrays of RBR solo thermistors set within COVIS’s field of vision - this is a curated data set related to a particular publication (Jackson et al., 2022)
+Automatic_Postprocessing_Version3.2/ - processed data 2020 - 2023
+COVIS_data_structure_description_diffuse_rev1.pdf - description of the processed data files (.mat format containing a single structure called covis) for the diffuse mode results
+COVIS_data_structure_description_imaging_rev1.pdf - description of the processed data files (.mat format containing a single structure called covis) for the imaging mode results
+latest/ - processed data 2020 - 2023 - seems to be same as Automatic_Postprocessing_Version3.2/ but was probably intended to be more temporary</p>
+<p>Data collection varies a bit but for 2020-2023, COVIS was collecting diffuse mode data hourly every day for 6 days and then imaging and doppler mode data hourly on the 7th day. Note that a diffuse map output is also computable from the imaging data so you will see diffuse mode files every day. There is no automatic computation of doppler mode data so those files are empty or missing (but the raw data exists).</p>
+<p>Data file sizes:
+Diffuse files are 325 kb or thereabouts (varies a bit but shouldn’t be much smaller)
+Imaging files are 21.5 Mb or thereabouts</p>
+<p>COVIS code repository: <a href="https://github.com/COVIS-Sonar/postprocessing.git" target="_blank" target="_blank">https://github.com/COVIS-Sonar/postprocessing.git</a>
+.  This has both the operational processing code to get from raw data (including all inputs other than the raw data files) to gridded data as well as some (very basic) visualization options.</p>
 
 
 <div style="height:  20px"></div>
@@ -473,38 +259,13 @@ Each <strong>row</strong> within the file contains the per-node information at a
   
   
   
-  <p>We provide a number of options to download the data.
-Some services might be slower/faster then others.</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">Provider</th>
-<th style="text-align:left">Link</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">Sciebo</td>
-<td style="text-align:left"><a href="https://rwth-aachen.sciebo.de/s/KNTo1vgT0JZyGJx" target="_blank" target="_blank">https://rwth-aachen.sciebo.de/s/KNTo1vgT0JZyGJx</a>
-</td>
-</tr>
-<tr>
-<td style="text-align:left">Gigamove</td>
-<td style="text-align:left"><a href="https://gigamove.rwth-aachen.de/de/download/ae621c338a695ee4ce0ff4da7c058925" target="_blank" target="_blank">https://gigamove.rwth-aachen.de/de/download/ae621c338a695ee4ce0ff4da7c058925</a>
-</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left"></td>
-</tr>
-</tbody>
-</table>
-<p>If you use this data set in your publications, please acknowledge the following:</p>
-<p>Neuron positions based on:<br>
-Marcus DS, Harwell J, Olsen T, Hodge M, Glasser MF, Prior F, Jenkinson M, Laumann T, Curtiss SW, and Van Essen DC. (2011). <em>Informatics and data mining: Tools and strategies for the Human Connectome Project.</em> Frontiers in Neuroinformatics 5:4.</p>
-<p>Simulation based on:<br>
-Rinke, Sebastian and Butz-Ostendorf, Markus and Hermanns, Marc-André and Naveau, Mikael and Wolf, Felix. (2018): <em>A scalable algorithm for simulating the structural plasticity of the brain</em> <a href="#References and Acknowledgments">[ 8 ].</a>
-</p>
+  <p>COVIS is no longer collecting data but there is a lot of data from two past deployments:
+2010-2015 COVIS was deployed at the Main Endeavour Field on the Juan de Fuca Ridge (JdFR) and connected to Ocean Networks Canada (<a href="https://www.oceannetworks.ca/" target="_blank" target="_blank">https://www.oceannetworks.ca/</a>
+ ).  A combination of isosurfacing and slicing techniques were used to extract plume centerlines (the central line of rise of the plume) from the plume imaging data and infer characteristics of the ocean currents and hydrothermal venting over time (Bemis et al., 2022).
+2018-2023 COVIS was deployed in the caldera of Axial Volcano off the west coast of North America and connected to a junction box in ASHES vent field that is operated by the Ocean Observatories Initiative’s Regional Cabled Array (<a href="https://oceanobservatories.org/pi-instrument/cabled-array-vent-imaging-sonar-covis/%29" target="_blank" target="_blank">https://oceanobservatories.org/pi-instrument/cabled-array-vent-imaging-sonar-covis/)</a>
+. Related work uses in situ measurements (video, temperature, flow) to establish baseline and ground truth estimates of discharge area and heat transfer by hydrothermal fluids for selected regions (Xu et al., 2021).</p>
+<p>Acoustic Imaging and COVIS project site:https://vizlab.rutgers.edu/node/61. This is the Rutgers project site. It’s not very up-to-date but it has some nice background information on acoustic imaging. There is a sister UW site at <a href="https://apl.uw.edu/project/project.php?id=covis" target="_blank" target="_blank">https://apl.uw.edu/project/project.php?id=covis</a>
+ that focus more on the engineering for COVIS and its deployment.</p>
 
 
 <div style="height:  20px"></div>
@@ -526,23 +287,25 @@ Rinke, Sebastian and Butz-Ostendorf, Markus and Hermanns, Marc-André and Naveau
   
   
   
-  <p>The contest is organized by the <em>Crosssectional Group Visualization</em> and the <em>Crosssectional Group Parallelism and Performance</em> within the National High Performance Computing Center for Computational Engineering Science (NHR4CES <a href="#References and Acknowledgments">[ 5 ]</a>
-).</p>
-<p>[1] Gallinaro, Júlia V. and Gašparović, Nebojša and Rotter, Stefan (2022): <em>Homeostatic control of synaptic rewiring in recurrent networks induces the formation of stable memory engrams</em> - <a href="http://dx.doi.org/10.1371/journal.pcbi.1009836" target="_blank" target="_blank">Available here</a>
-<br>
-[2] Butz, Markus and van Ooyen, Arjen (2013): <em>A simple rule for dendritic spine and axonal bouton formation can account for cortical reorganization after focal retinal lesions</em> - <a href="https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1003259&amp;type=printable" target="_blank" target="_blank">Available here</a>
-<br>
-[3] Izhikevich, Eugene M. (2003): <em>Simple model of spiking neurons</em> - <a href="https://www.izhikevich.org/publications/spikes.pdf" target="_blank" target="_blank">Available here</a>
-<br>
-[4] Nowke, Christian and Diaz-Pier, Sandra and Weyers, Benjamin and Hentschel, Bernd and Morrison, Abigail and Kuhlen, Torsten W. and Peyser, Alexander (2018): <em>Toward rigorous parameterization of underconstrained neural network models through interactive visualization and steering of connectivity generation</em> <a href="https://www.frontiersin.org/articles/10.3389/fninf.2018.00032/full" target="_blank" target="_blank">Available here</a>
-<br>
-[5] <em>National High Performance Computing Center for Computational Engineering Science</em> (NHR4CES) - <a href="https://www.nhr4ces.de/" target="_blank" target="_blank">Website</a>
+  <p>The contest is organized by the <em>Crosssectional Group Visualization</em> within the National High Performance Computing Center for Computational Engineering Science (NHR4CES <a href="#References and Acknowledgments">[ 5 ]</a>
+) as well as &hellip;.</p>
+<p>[1] Bemis, K. G., Silver, D., Xu, G., Light, R., Jackson, D., Jones, C., &hellip; &amp; Liu, L. (2015): <em>The path to COVIS: A review of acoustic imaging of hydrothermal flow regimes</em>  - <a href="">Available here</a>
+</p>
+<p>[2] Xu, G., Jackson, D. R., &amp; Bemis, K. G. (2017): <em>The relative effect of particles and turbulence on acoustic scattering from deep sea hydrothermal vent plumes revisited</em> - <a href="">Available here</a>
+</p>
+<p>[3] Bemis, K. G., Zhao, M., Sacker, J., &amp; Soule, D. C. (2022): <em>Systematic shift in plume bending direction at Grotto Vent, Main Endeavour Field, Juan de Fuca Ridge implies changes in venting output along the Endeavour Segment</em> - <a href="">Available here</a>
+</p>
+<p>[] Jackson, D., Bemis, K., Xu, G., &amp; Ivakin, A. (2022): <em>Sonar observation of heat flux of diffuse hydrothermal flows.</em> <a href="">Available here</a>
+</p>
+<p>[] Xu, G., Bemis, K., Jackson, D., &amp; Ivakin, A. (2021): <em>Acoustic and In‐Situ Observations of Deep Seafloor Hydrothermal Discharge: An OOI Cabled Array ASHES Vent Field Case Study</em> - <a href="">Available here</a>
+</p>
+<p>[] Liu, L., Silver, D., &amp; Bemis, K. (2019): <em>Visualizing three-dimensional ocean eddies in web browsers</em> - <a href="">Available here</a>
+</p>
+<p>[] Jackson, D. R., Ivakin, A. N., Xu, G., &amp; Bemis, K. G. (2017): <em>Sonar observation of diffuse hydrothermal flows</em>  - <a href="">Available here</a>
+</p>
+<p>[5] <em>National High Performance Computing Center for Computational Engineering Science</em> (NHR4CES) - <a href="https://www.nhr4ces.de/" target="_blank" target="_blank">Website</a>
 <br>
 [6] <a href="https://db.humanconnectome.org/" target="_blank" target="_blank">https://db.humanconnectome.org/</a>
- <br>
-[7] Czappa, Fabian and Geiß, Alexander and Wolf, Felix (2022): <em>Simulating Structural Plasticity of the Brain more Scalable than Expected</em> - <a href="https://arxiv.org/pdf/2210.05267.pdf" target="_blank" target="_blank">Available here</a>
-
-[8] Rinke, Sebastian and Butz-Ostendorf, Markus and Hermanns, Marc-André and Naveau, Mikael and Wolf, Felix. (2018): <em>A scalable algorithm for simulating the structural plasticity of the brain</em> - <a href="https://www.sciencedirect.com/science/article/abs/pii/S0743731517303313" target="_blank" target="_blank">Available here</a>
 </p>
 
 </div>
@@ -563,7 +326,7 @@ Rinke, Sebastian and Butz-Ostendorf, Markus and Hermanns, Marc-André and Naveau
       <div class="col-12">
         <div class="sub-footer-inner">
           <ul>
-            <li style="font-weight: normal;">IEEE SciVis Contest 2023</li>
+            <li style="font-weight: normal;">IEEE SciVis Contest 2024</li>
             <li>||</li>
             <li class="zerostatic"><a href="https://www.ieeevis.org" target="_blank">www.ieeevis.org</a></li>
           </ul>

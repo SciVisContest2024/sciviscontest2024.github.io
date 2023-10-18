@@ -6,22 +6,12 @@ weight: 3
 summary: None  
 ---
 
-We provide a number of options to download the data.
-Some services might be slower/faster then others.
+COVIS is no longer collecting data but there is a lot of data from two past deployments:
+2010-2015 COVIS was deployed at the Main Endeavour Field on the Juan de Fuca Ridge (JdFR) and connected to Ocean Networks Canada (https://www.oceannetworks.ca/ ).  A combination of isosurfacing and slicing techniques were used to extract plume centerlines (the central line of rise of the plume) from the plume imaging data and infer characteristics of the ocean currents and hydrothermal venting over time (Bemis et al., 2022).
+2018-2023 COVIS was deployed in the caldera of Axial Volcano off the west coast of North America and connected to a junction box in ASHES vent field that is operated by the Ocean Observatories Initiative’s Regional Cabled Array (https://oceanobservatories.org/pi-instrument/cabled-array-vent-imaging-sonar-covis/). Related work uses in situ measurements (video, temperature, flow) to establish baseline and ground truth estimates of discharge area and heat transfer by hydrothermal fluids for selected regions (Xu et al., 2021).  
 
-| Provider | Link |
-| :--   | :-- |
-| Sciebo  | https://rwth-aachen.sciebo.de/s/KNTo1vgT0JZyGJx |
-| Gigamove | https://gigamove.rwth-aachen.de/de/download/ae621c338a695ee4ce0ff4da7c058925 |
-| | |
+Acoustic Imaging and COVIS project site:https://vizlab.rutgers.edu/node/61. This is the Rutgers project site. It’s not very up-to-date but it has some nice background information on acoustic imaging. There is a sister UW site at https://apl.uw.edu/project/project.php?id=covis that focus more on the engineering for COVIS and its deployment.
 
-If you use this data set in your publications, please acknowledge the following:
-
-Neuron positions based on:  
-Marcus DS, Harwell J, Olsen T, Hodge M, Glasser MF, Prior F, Jenkinson M, Laumann T, Curtiss SW, and Van Essen DC. (2011). *Informatics and data mining: Tools and strategies for the Human Connectome Project.* Frontiers in Neuroinformatics 5:4.  
-
-Simulation based on:  
-Rinke, Sebastian and Butz-Ostendorf, Markus and Hermanns, Marc-André and Naveau, Mikael and Wolf, Felix. (2018): *A scalable algorithm for simulating the structural plasticity of the brain* [\[ 8 \].]({{< relref "#References and Acknowledgments" >}})
 
 
 {{< rawhtml >}}

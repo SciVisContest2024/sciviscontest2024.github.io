@@ -13,9 +13,8 @@
       <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
       
       <guid>https://sciviscontest2024.github.io/data/datalocation/</guid>
-      <description>Summary This data contains:
-~50 GB data 4 simulation ensemble members Each members consists of 50 000 neurons Each node collects information about 12 parameters The simulation is run for 1,000,000 simulations steps Every 100th iteration step is sampled per node Please find more details in the readme.md.
-In-Detail Description Four simulations have been run based on neuron locations given by the same underlying human brain data (MEG 146129) provided within the human connectome database [ 6 ]and extended by additional neurons close to existing ones.</description>
+      <description>The PI Instrument page is found at https://oceanobservatories.org/pi-instrument/cabled-array-vent-imaging-sonar-covis/. This is the official description of COVIS for the Ocean Observatories Initiative (OOI). COVIS data from the OOI deployment can be found at http://piweb.ooirsn.uw.edu/covis/. This folder has two subfolders ~/covis/data/ and ~/covis/processed/.
+The raw data is under ~/covis/data/ which contains ~BROWSE/, ~COVIS/, ~COVIS-ENG/, and ~INPUT/. All COVIS raw data files come in a compressed file folder (&amp;hellip;tar.gz). BROWSE - data organized in folders by year and julian day (same data as in COVIS and INPUT but reorganized in folders rather than just a long list) COVIS - incoming data from 2018 to 2020 COVIS-ENG &amp;ndash; information on COVIS operations but only 2018-2020 INPUT - incoming data from 2020 to 2023 The processed data is under ~/covis/processed/ 2019 Thermistor Data/ - temperature data from small arrays of RBR solo thermistors set within COVIS’s field of vision - this is a curated data set related to a particular publication (Jackson et al.</description>
     </item>
     
     <item>
