@@ -3,7 +3,7 @@ title: 'PastSciVis Contests'
 date: 2018-11-28T15:14:39+10:00
 weight: 1
 ---
-* [2023](https://sciviscontest2024.github.io/): Neuronal Network Simulations of the Human Brain
+* [2023](https://sciviscontest2023.github.io/): Neuronal Network Simulations of the Human Brain
 * [2022](https://www.lanl.gov/projects/sciviscontest2022/index.html): Vorticity-driven Lateral Spread Ensemble Data Set
 * [2021](https://scivis2021.netlify.app/): Earth’s Mantle Convection
 * [2020](https://kaust-vislab.github.io/SciVis2020/index.html): Transport mechanisms of eddies in the Red Sea

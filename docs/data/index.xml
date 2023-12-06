@@ -14,11 +14,12 @@
       
       <guid>https://sciviscontest2024.github.io/data/datalocation/</guid>
       <description>The PI Instrument page is found at https://oceanobservatories.org/pi-instrument/cabled-array-vent-imaging-sonar-covis/. This is the official description of COVIS for the Ocean Observatories Initiative (OOI). COVIS data from the OOI deployment can be found at http://piweb.ooirsn.uw.edu/covis/. This folder has two subfolders ~/covis/data/ and ~/covis/processed/.
-The raw data is under ~/covis/data/ which contains ~BROWSE/, ~COVIS/, ~COVIS-ENG/, and ~INPUT/. All COVIS raw data files come in a compressed file folder (&amp;hellip;tar.gz). BROWSE - data organized in folders by year and julian day (same data as in COVIS and INPUT but reorganized in folders rather than just a long list) COVIS - incoming data from 2018 to 2020 COVIS-ENG &amp;ndash; information on COVIS operations but only 2018-2020 INPUT - incoming data from 2020 to 2023 The processed data is under ~/covis/processed/ 2019 Thermistor Data/ - temperature data from small arrays of RBR solo thermistors set within COVIS’s field of vision - this is a curated data set related to a particular publication (Jackson et al.</description>
+The raw data is under ~/covis/data/ which contains ~BROWSE/, ~COVIS/, ~COVIS-ENG/, and ~INPUT/. All COVIS raw data files come in a compressed file folder (&amp;hellip;tar.gz).
+BROWSE - data organized in folders by year and julian day (same data as in COVIS and INPUT but reorganized in folders rather than just a long list) COVIS - incoming data from 2018 to 2020 COVIS-ENG &amp;ndash; information on COVIS operations but only 2018-2020 INPUT - incoming data from 2020 to 2023 The processed data is under ~/covis/processed/</description>
     </item>
     
     <item>
-      <title>Download Data</title>
+      <title>Download Data and Further Resources</title>
       <link>https://sciviscontest2024.github.io/data/download/</link>
       <pubDate>Mon, 11 Feb 2019 19:30:08 +1000</pubDate>
       
