@@ -17,6 +17,8 @@ In 2024, the conference and this contest will be held in Tampa Bay, Florida, USA
 On this website, you can find information on the provided [data,](/data) the visualization [tasks,](/tasks) as well as the [submission process.](/submission)  
 If there still are questions, feel free to contact the [contest chairs](mailto:scivis_contest@ieeevis.org) or join the [Google Group.](https://groups.google.com/g/scivis2024).
 
+**The deadline has been extended to August 7th, 2024**.
+
 
 ###### Watch a video from IEEE VIS 2024 presenting the data and tasks:
 
