@@ -20,7 +20,7 @@ If there still are questions, feel free to contact the [contest chairs](mailto:s
 **The deadline has been extended to August 7th, 2024**.
 
 
-###### Watch a video from IEEE VIS 2024 presenting the data and tasks:
+###### Watch a video from IEEE VIS 2023 presenting the data and tasks:
 
 
 {{< rawhtml >}}
