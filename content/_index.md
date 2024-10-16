@@ -11,7 +11,7 @@ Sonar Imaging for Hydrothermal Systems
 
 Welcome to the *2024 IEEE SciVis Contest* website.
 This contest is held annually as part of the [IEEE VIS Conference.](http://ieeevis.org)  
-In 2024, the conference and this contest will be held in Tampa Bay, Florida, USA, and will focus on the visualization of  
+In 2024, the conference and this contest will be held **virtually**, and will focus on the visualization of  
  ***Sonar Imaging for Hydrothermal Systems***.
 
 On this website, you can find information on the provided [data,](/data) the visualization [tasks,](/tasks) as well as the [submission process.](/submission)  

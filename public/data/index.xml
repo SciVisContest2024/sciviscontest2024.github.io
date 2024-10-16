@@ -2,38 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data on 2024 IEEE SciVis Contest</title>
-    <link>https://sciviscontest2024.github.io/data/</link>
+    <link>http://localhost:1313/data/</link>
     <description>Recent content in Data on 2024 IEEE SciVis Contest</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Nov 2018 15:14:39 +1000</lastBuildDate><atom:link href="https://sciviscontest2024.github.io/data/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Feb 2019 19:30:08 +1000</lastBuildDate>
+    <atom:link href="http://localhost:1313/data/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Data Description</title>
-      <link>https://sciviscontest2024.github.io/data/datalocation/</link>
+      <link>http://localhost:1313/data/datalocation/</link>
       <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
-      
-      <guid>https://sciviscontest2024.github.io/data/datalocation/</guid>
-      <description>The PI Instrument page is found at https://oceanobservatories.org/pi-instrument/cabled-array-vent-imaging-sonar-covis/. This is the official description of COVIS for the Ocean Observatories Initiative (OOI). COVIS data from the OOI deployment can be found at http://piweb.ooirsn.uw.edu/covis/. This folder has two subfolders ~/covis/data/ and ~/covis/processed/.
-The raw data is under ~/covis/data/ which contains ~BROWSE/, ~COVIS/, ~COVIS-ENG/, and ~INPUT/. All COVIS raw data files come in a compressed file folder (&amp;hellip;tar.gz). BROWSE - data organized in folders by year and julian day (same data as in COVIS and INPUT but reorganized in folders rather than just a long list) COVIS - incoming data from 2018 to 2020 COVIS-ENG &amp;ndash; information on COVIS operations but only 2018-2020 INPUT - incoming data from 2020 to 2023 The processed data is under ~/covis/processed/ 2019 Thermistor Data/ - temperature data from small arrays of RBR solo thermistors set within COVIS’s field of vision - this is a curated data set related to a particular publication (Jackson et al.</description>
+      <guid>http://localhost:1313/data/datalocation/</guid>
+      <description>&lt;p&gt;The PI Instrument page is found at &lt;a href=&#34;https://oceanobservatories.org/pi-instrument/cabled-array-vent-imaging-sonar-covis/&#34; target=&#34;_blank&#34;&gt;https://oceanobservatories.org/pi-instrument/cabled-array-vent-imaging-sonar-covis/&lt;/a&gt;&#xD;&#xA; . This is the official description of COVIS for the Ocean Observatories Initiative (OOI).&#xA;COVIS data from the OOI deployment can be found at  &lt;a href=&#34;http://piweb.ooirsn.uw.edu/covis/&#34; target=&#34;_blank&#34;&gt;http://piweb.ooirsn.uw.edu/covis/&lt;/a&gt;&#xD;&#xA;. This folder has two subfolders ~/covis/data/ and ~/covis/processed/.&lt;br&gt;&#xA;The raw data is under ~/covis/data/ which contains ~BROWSE/, ~COVIS/, ~COVIS-ENG/, and ~INPUT/.  All COVIS raw data files come in a compressed file folder (&amp;hellip;tar.gz).&#xA;BROWSE - data organized in folders by year and julian day  (same data as in COVIS and INPUT but reorganized in folders rather than just a long list)&#xA;COVIS - incoming data from 2018 to 2020&#xA;COVIS-ENG &amp;ndash; information on COVIS operations but only 2018-2020&#xA;INPUT - incoming data from 2020 to 2023&#xA;The processed data is under ~/covis/processed/&#xA;2019 Thermistor Data/ - temperature data from small arrays of RBR solo thermistors set within COVIS’s field of vision - this is a curated data set related to a particular publication (Jackson et al., 2022)&#xA;Automatic_Postprocessing_Version3.2/ - processed data 2020 - 2023&#xA;COVIS_data_structure_description_diffuse_rev1.pdf - description of the processed data files (.mat format containing a single structure called covis) for the diffuse mode results&#xA;COVIS_data_structure_description_imaging_rev1.pdf - description of the processed data files (.mat format containing a single structure called covis) for the imaging mode results&#xA;latest/ - processed data 2020 - 2023 - seems to be same as Automatic_Postprocessing_Version3.2/ but was probably intended to be more temporary&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Download Data</title>
-      <link>https://sciviscontest2024.github.io/data/download/</link>
+      <link>http://localhost:1313/data/download/</link>
       <pubDate>Mon, 11 Feb 2019 19:30:08 +1000</pubDate>
-      
-      <guid>https://sciviscontest2024.github.io/data/download/</guid>
+      <guid>http://localhost:1313/data/download/</guid>
       <description>None</description>
     </item>
-    
     <item>
       <title>References and Acknowledgments</title>
-      <link>https://sciviscontest2024.github.io/data/references/</link>
+      <link>http://localhost:1313/data/references/</link>
       <pubDate>Mon, 11 Feb 2019 19:30:08 +1000</pubDate>
-      
-      <guid>https://sciviscontest2024.github.io/data/references/</guid>
+      <guid>http://localhost:1313/data/references/</guid>
       <description>None</description>
     </item>
-    
   </channel>
 </rss>

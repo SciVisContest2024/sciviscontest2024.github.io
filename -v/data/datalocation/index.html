@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Data Description - 2024 IEEE SciVis Contest</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="icon" href="https://sciviscontest2024.github.io/favicon.png">
+
+  
+  
+  <link rel="stylesheet" href="/css/style.min.db7475b6db0fdaa1427f4fed2471ff6271a0ad713e53679de8ada5ff64b6a75c.css">
+  
+
+  
+
+</head>
+
+<body class='page page-default-single'>
+  <div id="main-menu-mobile" class="main-menu-mobile">
+  <ul>
+    
+    
+    <li class="menu-item-home">
+      <a href="/" >
+        <span>Home</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-data">
+      <a href="/data/" >
+        <span>Data</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-tasks">
+      <a href="/tasks/" >
+        <span>Tasks</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-submission">
+      <a href="/submission/" >
+        <span>Submission</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-results">
+      <a href="/results/" >
+        <span>Results</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-google group">
+      <a href="https://groups.google.com/g/scivis2024"  target="_blank">
+        <span>Google Group</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-past scivis contests">
+      <a href="/past-submissions/" >
+        <span>Past SciVis Contests</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+  <div class="wrapper">
+    <div class='header'>
+  <div class="container">
+    <div class="logo">
+      <a href="https://sciviscontest2024.github.io/"><img alt="Logo" src="/Logo_other%20color%20gradient.png" /></a>
+    </div>
+    <div class="logo-mobile">
+      <a href="https://sciviscontest2024.github.io/"><img alt="Logo" src="/Logo_other%20color%20gradient.png" /></a>
+    </div>
+    <div id="main-menu" class="main-menu">
+  <ul>
+    
+    
+    <li class="menu-item-home">
+      <a href="/" >
+        <span>Home</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-data">
+      <a href="/data/" >
+        <span>Data</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-tasks">
+      <a href="/tasks/" >
+        <span>Tasks</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-submission">
+      <a href="/submission/" >
+        <span>Submission</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-results">
+      <a href="/results/" >
+        <span>Results</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-google group">
+      <a href="https://groups.google.com/g/scivis2024"  target="_blank">
+        <span>Google Group</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-past scivis contests">
+      <a href="/past-submissions/" >
+        <span>Past SciVis Contests</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+
+    <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+  </div>
+</div>
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    <div class="container pt-2 pt-md-6 pb-3 pb-md-6">
+      <div class="row">
+        <div class="col-12 col-md-3 mb-3">
+          <div class="sidebar">
+            
+<div class="docs-menu">
+  <h4>Data</h4>
+  <ul>
+    
+    <li class="active ">
+      <a href="#Data%20Description">Data Description</a>
+    </li>
+    
+    <li class="">
+      <a href="#Download%20Data">Download Data</a>
+    </li>
+    
+    <li class="">
+      <a href="#References%20and%20Acknowledgments">References and Acknowledgments</a>
+    </li>
+    
+  </ul>
+</div>
+
+          </div>
+        </div>
+        <div class="col-12 col-md-9">
+          
+<h1 class="title">Data Description</h1>
+<div class="content ">
+  
+  
+  
+  <p>The PI Instrument page is found at <a href="https://oceanobservatories.org/pi-instrument/cabled-array-vent-imaging-sonar-covis/" target="_blank" target="_blank">https://oceanobservatories.org/pi-instrument/cabled-array-vent-imaging-sonar-covis/</a>
+ . This is the official description of COVIS for the Ocean Observatories Initiative (OOI).
+COVIS data from the OOI deployment can be found at  <a href="http://piweb.ooirsn.uw.edu/covis/" target="_blank" target="_blank">http://piweb.ooirsn.uw.edu/covis/</a>
+. This folder has two subfolders ~/covis/data/ and ~/covis/processed/.<br>
+The raw data is under ~/covis/data/ which contains ~BROWSE/, ~COVIS/, ~COVIS-ENG/, and ~INPUT/.  All COVIS raw data files come in a compressed file folder (&hellip;tar.gz).
+BROWSE - data organized in folders by year and julian day  (same data as in COVIS and INPUT but reorganized in folders rather than just a long list)
+COVIS - incoming data from 2018 to 2020
+COVIS-ENG &ndash; information on COVIS operations but only 2018-2020
+INPUT - incoming data from 2020 to 2023
+The processed data is under ~/covis/processed/
+2019 Thermistor Data/ - temperature data from small arrays of RBR solo thermistors set within COVIS’s field of vision - this is a curated data set related to a particular publication (Jackson et al., 2022)
+Automatic_Postprocessing_Version3.2/ - processed data 2020 - 2023
+COVIS_data_structure_description_diffuse_rev1.pdf - description of the processed data files (.mat format containing a single structure called covis) for the diffuse mode results
+COVIS_data_structure_description_imaging_rev1.pdf - description of the processed data files (.mat format containing a single structure called covis) for the imaging mode results
+latest/ - processed data 2020 - 2023 - seems to be same as Automatic_Postprocessing_Version3.2/ but was probably intended to be more temporary</p>
+<p>Data collection varies a bit but for 2020-2023, COVIS was collecting diffuse mode data hourly every day for 6 days and then imaging and doppler mode data hourly on the 7th day. Note that a diffuse map output is also computable from the imaging data so you will see diffuse mode files every day. There is no automatic computation of doppler mode data so those files are empty or missing (but the raw data exists).</p>
+<p>Data file sizes:
+Diffuse files are 325 kb or thereabouts (varies a bit but shouldn’t be much smaller)
+Imaging files are 21.5 Mb or thereabouts</p>
+<p>COVIS code repository: <a href="https://github.com/COVIS-Sonar/postprocessing.git" target="_blank" target="_blank">https://github.com/COVIS-Sonar/postprocessing.git</a>
+.  This has both the operational processing code to get from raw data (including all inputs other than the raw data files) to gridded data as well as some (very basic) visualization options.</p>
+
+
+<div style="height:  20px"></div>
+
+<hr>
+
+
+<div style="height:  20px"></div>
+
+
+</div>
+</div>
+
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <div class="sub-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="sub-footer-inner">
+          <ul>
+            <li style="font-weight: normal;">IEEE SciVis Contest 2024</li>
+            <li>||</li>
+            <li class="zerostatic"><a href="https://www.ieeevis.org" target="_blank">www.ieeevis.org</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/scripts.min.ec19db7e4836c12e2c5e3697d926bc3e4c22005167d9826aab54feca08f0c093.js"></script>
+  
+
+  
+  
+  
+    
+  
+
+
+</body>
+
+</html>
