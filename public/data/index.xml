@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data on 2024 IEEE SciVis Contest</title>
-    <link>https://sciviscontest2024.github.io/data/</link>
+    <link>http://localhost:1313/data/</link>
     <description>Recent content in Data on 2024 IEEE SciVis Contest</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 11 Feb 2019 19:30:08 +1000</lastBuildDate>
-    <atom:link href="https://sciviscontest2024.github.io/data/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/data/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Data Description</title>
-      <link>https://sciviscontest2024.github.io/data/datalocation/</link>
+      <link>http://localhost:1313/data/datalocation/</link>
       <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
-      <guid>https://sciviscontest2024.github.io/data/datalocation/</guid>
+      <guid>http://localhost:1313/data/datalocation/</guid>
       <description>&lt;p&gt;The PI Instrument page is found at &lt;a href=&#34;https://oceanobservatories.org/pi-instrument/cabled-array-vent-imaging-sonar-covis/&#34; target=&#34;_blank&#34;&gt;https://oceanobservatories.org/pi-instrument/cabled-array-vent-imaging-sonar-covis/&lt;/a&gt;&#xD;&#xA; . This is the official description of COVIS for the Ocean Observatories Initiative (OOI).&#xA;COVIS data from the OOI deployment can be found at  &lt;a href=&#34;http://piweb.ooirsn.uw.edu/covis/&#34; target=&#34;_blank&#34;&gt;http://piweb.ooirsn.uw.edu/covis/&lt;/a&gt;&#xD;&#xA;. This folder has two subfolders ~/covis/data/ and ~/covis/processed/.&lt;/p&gt;&#xA;&lt;p&gt;The raw data is under ~/covis/data/ which contains ~BROWSE/, ~COVIS/, ~COVIS-ENG/, and ~INPUT/.  All COVIS raw data files come in a compressed file folder (&amp;hellip;tar.gz).&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;BROWSE&lt;/strong&gt; - data organized in folders by year and julian day  (same data as in COVIS and INPUT but reorganized in folders rather than just a long list)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;COVIS&lt;/strong&gt; - incoming data from 2018 to 2020&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;COVIS-ENG&lt;/strong&gt; &amp;ndash; information on COVIS operations but only 2018-2020&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;INPUT&lt;/strong&gt; - incoming data from 2020 to 2023&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The processed data is under ~/covis/processed/&lt;/p&gt;</description>
     </item>
     <item>
       <title>Download Data and Further Resources</title>
-      <link>https://sciviscontest2024.github.io/data/download/</link>
+      <link>http://localhost:1313/data/download/</link>
       <pubDate>Mon, 11 Feb 2019 19:30:08 +1000</pubDate>
-      <guid>https://sciviscontest2024.github.io/data/download/</guid>
+      <guid>http://localhost:1313/data/download/</guid>
       <description>None</description>
     </item>
     <item>
       <title>References and Acknowledgments</title>
-      <link>https://sciviscontest2024.github.io/data/references/</link>
+      <link>http://localhost:1313/data/references/</link>
       <pubDate>Mon, 11 Feb 2019 19:30:08 +1000</pubDate>
-      <guid>https://sciviscontest2024.github.io/data/references/</guid>
+      <guid>http://localhost:1313/data/references/</guid>
       <description>None</description>
     </item>
   </channel>
