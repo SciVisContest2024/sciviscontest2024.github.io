@@ -164,7 +164,7 @@
     </li>
     
     <li class="">
-      <a href="#Download%20Data">Download Data</a>
+      <a href="#Download%20Data%20and%20Further%20Resources">Download Data and Further Resources</a>
     </li>
     
     <li class="">
@@ -198,18 +198,19 @@ A team of scientists from Rutgers and UW have developed acoustic imaging methods
 .  Sonar is like radar only using sound.  Sound is sent out actively; it scatters or backscatters off of density and impedance contrasts (related to compressibility) and returns. Known scatterers include temperature contrasts, density contrasts, and particulates.  Rapid fluctuations in temperature are believed to be the main scatterers in hydrothermal plumes <a href="#References and Acknowledgments">[ 2 ]</a>
 . COVIS produces the following data products:</p>
 <ul>
-<li>Plume images are 3D volumes with the main variable the backscattering strength at every point within the volume.  The three dimensions come from the multiple beams of the sonar instrument, the travel time to the scatterers and back, and the rotation or movement of the sonar instrument through space.  See details in <a href="#References and Acknowledgments">[ 1 ]</a>
+<li><strong>Plume images</strong> are 3D volumes with the main variable the backscattering strength at every point within the volume.  The three dimensions come from the multiple beams of the sonar instrument, the travel time to the scatterers and back, and the rotation or movement of the sonar instrument through space.  See details in <a href="#References and Acknowledgments">[ 1 ]</a>
 . Raw data are in native coordinates (roughly spherical coordinates from the sonar receiver).  Processed data is interpolated onto a uniform rectangular grid.</li>
-<li>Plume doppler velocity estimates are also 3D volumes but with vertical velocity and backscattering strength as variables.  The initial processed values are line-of-sight velocities but the plume orientation is used to estimate the relative horizontal and vertical components.</li>
-<li>Diffuse maps are 2D datasets which map out the heat flux density or decorrelation intensity stemming from low temperature, low flow rate discharge on the seafloor.  This data differs in several ways: the recorded signal bounces off the seafloor, we are looking at travel time changes and ping-to-ping correlation of the signals, and the outgoing sound comes from a wide angle transmitter.  The processed data is interpolated onto the local bathymetry.</li>
+<li><strong>Plume doppler velocity estimates</strong> are also 3D volumes but with vertical velocity and backscattering strength as variables.  The initial processed values are line-of-sight velocities but the plume orientation is used to estimate the relative horizontal and vertical components.</li>
+<li><strong>Diffuse maps</strong> are 2D datasets which map out the heat flux density or decorrelation intensity stemming from low temperature, low flow rate discharge on the seafloor.  This data differs in several ways: the recorded signal bounces off the seafloor, we are looking at travel time changes and ping-to-ping correlation of the signals, and the outgoing sound comes from a wide angle transmitter.  The processed data is interpolated onto the local bathymetry.</li>
 </ul>
 <p>COVIS imaging data is collected by rotating a multibeam sonar up and down from a horizontal base position.  The three dimensions then come from the multiple beams, the elevation angles of the physical rotation, and the travel time of the sound signal out to a scatterer and back to the sonar.</p>
 <p>The plume imaging data is intended to capture an overview of the structure, size and shape of the buoyant plume rising above the hot springs.  Of primary interest are capturing the response of the plume to local ocean currents (including tidal currents) and understanding the connections between the multiple points of discharge and the overall shaping of the plume or plumes present above the discharge. The anticipated decrease in backscatter intensity as the plume dilutes has the potential to additionally provide direct estimates of heat flux.</p>
 <p>Work with the first deployment of COVIS at Endeavour Ridge resulted in a paper that suggested that changes in the typical plume bending directions could be indicative of mid-ocean ridge segment scale changes in hydrothermal venting <a href="#References and Acknowledgments">[ 3 ]</a>
 .  Preliminary analysis of data from the second deployment at Axial Seamount observed great variation in the apparent merging of sources and overall plume structure.</p>
-<p>One of the major challenges in working with this data is extracting the plume and its centerline from a relatively undersampled volume.  There are two basic issues.  First, isosurfaces cross the plume centerline due to the increasing dilution as the plume rises and entrains seawater. Additionally, the plume shows lateral dilution.  Unless the surrounding ocean is very clean acoustically and the plume signal is much stronger than the base level of the sonar, defining a boundary for the plume is not straightforward.  Previous work used either multiple isosurfaces (Bemis et al., 2003) or fit Gaussian functions to slices perpendicular to the plume centerline <a href="#References and Acknowledgments">[ 1 ]</a>
-).  The second issue stems from the relative wispiness of a weak plume in a strong current combined with the relatively low spatial resolution of the acoustic data.  This results in disconnected isosurfaces and challenges in identifying the exact location of the centerline of the plume. A final note should mention that all the above assumes the analysis starts with the standard gridded data but that is an interpolation from the semi-structured raw data (composed of multiple planes or pings directed in a series of different angles of elevation).</p>
-<p>Based on this, we have provided a list of visualization <a href="%5ctasks">tasks</a>
+<p>One of the major challenges in working with this data is extracting the plume and its centerline from a relatively undersampled volume.  There are two basic issues.  First, isosurfaces cross the plume centerline due to the increasing dilution as the plume rises and entrains seawater. Additionally, the plume shows lateral dilution.  Unless the surrounding ocean is very clean acoustically and the plume signal is much stronger than the base level of the sonar, defining a boundary for the plume is not straightforward.  Previous work used either multiple isosurfaces <a href="#References and Acknowledgments">[ 4 ]</a>
+ or fit Gaussian functions to slices perpendicular to the plume centerline <a href="#References and Acknowledgments">[ 1 ]</a>
+.  The second issue stems from the relative wispiness of a weak plume in a strong current combined with the relatively low spatial resolution of the acoustic data.  This results in disconnected isosurfaces and challenges in identifying the exact location of the centerline of the plume. A final note should mention that all the above assumes the analysis starts with the standard gridded data but that is an interpolation from the semi-structured raw data (composed of multiple planes or pings directed in a series of different angles of elevation).</p>
+<p>Based on this, we have provided a list of visualization <a href="/tasks">tasks</a>
  for this contest.</p>
 
 
@@ -234,21 +235,26 @@ A team of scientists from Rutgers and UW have developed acoustic imaging methods
   <p>The PI Instrument page is found at <a href="https://oceanobservatories.org/pi-instrument/cabled-array-vent-imaging-sonar-covis/" target="_blank" target="_blank">https://oceanobservatories.org/pi-instrument/cabled-array-vent-imaging-sonar-covis/</a>
  . This is the official description of COVIS for the Ocean Observatories Initiative (OOI).
 COVIS data from the OOI deployment can be found at  <a href="http://piweb.ooirsn.uw.edu/covis/" target="_blank" target="_blank">http://piweb.ooirsn.uw.edu/covis/</a>
-. This folder has two subfolders ~/covis/data/ and ~/covis/processed/.<br>
-The raw data is under ~/covis/data/ which contains ~BROWSE/, ~COVIS/, ~COVIS-ENG/, and ~INPUT/.  All COVIS raw data files come in a compressed file folder (&hellip;tar.gz).
-BROWSE - data organized in folders by year and julian day  (same data as in COVIS and INPUT but reorganized in folders rather than just a long list)
-COVIS - incoming data from 2018 to 2020
-COVIS-ENG &ndash; information on COVIS operations but only 2018-2020
-INPUT - incoming data from 2020 to 2023
-The processed data is under ~/covis/processed/
-2019 Thermistor Data/ - temperature data from small arrays of RBR solo thermistors set within COVIS’s field of vision - this is a curated data set related to a particular publication (Jackson et al., 2022)
-Automatic_Postprocessing_Version3.2/ - processed data 2020 - 2023
-COVIS_data_structure_description_diffuse_rev1.pdf - description of the processed data files (.mat format containing a single structure called covis) for the diffuse mode results
-COVIS_data_structure_description_imaging_rev1.pdf - description of the processed data files (.mat format containing a single structure called covis) for the imaging mode results
-latest/ - processed data 2020 - 2023 - seems to be same as Automatic_Postprocessing_Version3.2/ but was probably intended to be more temporary</p>
+. This folder has two subfolders ~/covis/data/ and ~/covis/processed/.</p>
+<p>The raw data is under ~/covis/data/ which contains ~BROWSE/, ~COVIS/, ~COVIS-ENG/, and ~INPUT/.  All COVIS raw data files come in a compressed file folder (&hellip;tar.gz).</p>
+<ul>
+<li><strong>BROWSE</strong> - data organized in folders by year and julian day  (same data as in COVIS and INPUT but reorganized in folders rather than just a long list)</li>
+<li><strong>COVIS</strong> - incoming data from 2018 to 2020</li>
+<li><strong>COVIS-ENG</strong> &ndash; information on COVIS operations but only 2018-2020</li>
+<li><strong>INPUT</strong> - incoming data from 2020 to 2023</li>
+</ul>
+<p>The processed data is under ~/covis/processed/</p>
+<ul>
+<li><strong>2019 Thermistor Data/</strong> - temperature data from small arrays of RBR solo thermistors set within COVIS’s field of vision - this is a curated data set related to a particular publication <a href="#References and Acknowledgments">[ 5 ]</a>
+</li>
+<li><strong>Automatic_Postprocessing_Version3.2/</strong> - processed data 2020 - 2023</li>
+<li><strong>COVIS_data_structure_description_diffuse_rev1.pdf</strong> - description of the processed data files (.mat format containing a single structure called covis) for the diffuse mode results</li>
+<li><strong>COVIS_data_structure_description_imaging_rev1.pdf</strong> - description of the processed data files (.mat format containing a single structure called covis) for the imaging mode results</li>
+<li><strong>latest/</strong> - processed data 2020 - 2023 - seems to be same as Automatic_Postprocessing_Version3.2/ but was probably intended to be more temporary</li>
+</ul>
 <p>Data collection varies a bit but for 2020-2023, COVIS was collecting diffuse mode data hourly every day for 6 days and then imaging and doppler mode data hourly on the 7th day. Note that a diffuse map output is also computable from the imaging data so you will see diffuse mode files every day. There is no automatic computation of doppler mode data so those files are empty or missing (but the raw data exists).</p>
-<p>Data file sizes:
-Diffuse files are 325 kb or thereabouts (varies a bit but shouldn’t be much smaller)
+<p><strong>Data file sizes:</strong><br>
+Diffuse files are 325 kb or thereabouts (varies a bit but shouldn’t be much smaller)<br>
 Imaging files are 21.5 Mb or thereabouts</p>
 <p>COVIS code repository: <a href="https://github.com/COVIS-Sonar/postprocessing.git" target="_blank" target="_blank">https://github.com/COVIS-Sonar/postprocessing.git</a>
 .  This has both the operational processing code to get from raw data (including all inputs other than the raw data files) to gridded data as well as some (very basic) visualization options.</p>
@@ -268,17 +274,27 @@ Imaging files are 21.5 Mb or thereabouts</p>
 
 <div class="summary mb-2">
   
-  <h2 id="Download Data">Download Data</h2>
+  <h2 id="Download Data and Further Resources">Download Data and Further Resources</h2>
   <div class="content ">
   
   
   
-  <p>COVIS is no longer collecting data but there is a lot of data from two past deployments:
-2010-2015 COVIS was deployed at the Main Endeavour Field on the Juan de Fuca Ridge (JdFR) and connected to Ocean Networks Canada (<a href="https://www.oceannetworks.ca/" target="_blank" target="_blank">https://www.oceannetworks.ca/</a>
- ).  A combination of isosurfacing and slicing techniques were used to extract plume centerlines (the central line of rise of the plume) from the plume imaging data and infer characteristics of the ocean currents and hydrothermal venting over time (Bemis et al., 2022).
-2018-2023 COVIS was deployed in the caldera of Axial Volcano off the west coast of North America and connected to a junction box in ASHES vent field that is operated by the Ocean Observatories Initiative’s Regional Cabled Array (<a href="https://oceanobservatories.org/pi-instrument/cabled-array-vent-imaging-sonar-covis/%29" target="_blank" target="_blank">https://oceanobservatories.org/pi-instrument/cabled-array-vent-imaging-sonar-covis/)</a>
-. Related work uses in situ measurements (video, temperature, flow) to establish baseline and ground truth estimates of discharge area and heat transfer by hydrothermal fluids for selected regions (Xu et al., 2021).</p>
-<p>Acoustic Imaging and COVIS project site:https://vizlab.rutgers.edu/node/61. This is the Rutgers project site. It’s not very up-to-date but it has some nice background information on acoustic imaging. There is a sister UW site at <a href="https://apl.uw.edu/project/project.php?id=covis" target="_blank" target="_blank">https://apl.uw.edu/project/project.php?id=covis</a>
+  <p>OVIS data from the OOI deployment can be found at  <a href="http://piweb.ooirsn.uw.edu/covis/" target="_blank" target="_blank">http://piweb.ooirsn.uw.edu/covis/</a>
+</p>
+<p>COVIS is no longer collecting data but there is a lot of data from two past deployments:</p>
+<ul>
+<li><strong>2010-2015 COVIS</strong> was deployed at the Main Endeavour Field on the Juan de Fuca Ridge (JdFR) and connected to Ocean Networks Canada (<a href="https://www.oceannetworks.ca/" target="_blank" target="_blank">https://www.oceannetworks.ca/</a>
+ ).<br>
+A combination of isosurfacing and slicing techniques were used to extract plume centerlines (the central line of rise of the plume) from the plume imaging data and infer characteristics of the ocean currents and hydrothermal venting over time <a href="#References and Acknowledgments">[ 4 ]</a>
+.</li>
+<li><strong>2018-2023 COVIS</strong> was deployed in the caldera of Axial Volcano off the west coast of North America and connected to a junction box in ASHES vent field that is operated by the Ocean Observatories Initiative’s Regional Cabled Array (<a href="https://oceanobservatories.org/pi-instrument/cabled-array-vent-imaging-sonar-covis/%29" target="_blank" target="_blank">https://oceanobservatories.org/pi-instrument/cabled-array-vent-imaging-sonar-covis/)</a>
+. Related work uses in situ measurements (video, temperature, flow) to establish baseline and ground truth estimates of discharge area and heat transfer by hydrothermal fluids for selected regions <a href="#References and Acknowledgments">[ 6 ]</a>
+.</li>
+</ul>
+<p>Acoustic Imaging and COVIS project site: <a href="https://vizlab.rutgers.edu/node/61" target="_blank" target="_blank">https://vizlab.rutgers.edu/node/61</a>
+. 
+This is the Rutgers project site. It’s not very up-to-date but it has some nice background information on acoustic imaging. 
+There is a sister UW site at <a href="https://apl.uw.edu/project/project.php?id=covis" target="_blank" target="_blank">https://apl.uw.edu/project/project.php?id=covis</a>
  that focus more on the engineering for COVIS and its deployment.</p>
 
 
@@ -301,25 +317,21 @@ Imaging files are 21.5 Mb or thereabouts</p>
   
   
   
-  <p>The contest is organized by the <em>Crosssectional Group Visualization</em> within the National High Performance Computing Center for Computational Engineering Science (NHR4CES <a href="#References and Acknowledgments">[ 5 ]</a>
-) as well as &hellip;.</p>
-<p>[1] Bemis, K. G., Silver, D., Xu, G., Light, R., Jackson, D., Jones, C., &hellip; &amp; Liu, L. (2015): <em>The path to COVIS: A review of acoustic imaging of hydrothermal flow regimes</em>  - <a href="">Available here</a>
+  <p>The contest is organized by the <em>Crosssectional Group Visualization</em> within the National High Performance Computing Center for Computational Engineering Science (NHR4CES <a href="#References and Acknowledgments">[ 7 ]</a>
+) as well as the department of Marine &amp; Coastal Sciences at Rutgers University.</p>
+<p>[1] Bemis, K. G., Silver, D., Xu, G., Light, R., Jackson, D., Jones, C., &hellip; &amp; Liu, L. (2015): <em>The path to COVIS: A review of acoustic imaging of hydrothermal flow regimes</em>  - <a href="https://www.sciencedirect.com/science/article/pii/S0967064515002027?via%3Dihub" target="_blank" target="_blank">Available here</a>
 </p>
-<p>[2] Xu, G., Jackson, D. R., &amp; Bemis, K. G. (2017): <em>The relative effect of particles and turbulence on acoustic scattering from deep sea hydrothermal vent plumes revisited</em> - <a href="">Available here</a>
+<p>[2] Xu, G., Jackson, D. R., &amp; Bemis, K. G. (2017): <em>The relative effect of particles and turbulence on acoustic scattering from deep sea hydrothermal vent plumes revisited</em> - <a href="https://pubmed.ncbi.nlm.nih.gov/28372053/" target="_blank" target="_blank">Available here</a>
 </p>
-<p>[3] Bemis, K. G., Zhao, M., Sacker, J., &amp; Soule, D. C. (2022): <em>Systematic shift in plume bending direction at Grotto Vent, Main Endeavour Field, Juan de Fuca Ridge implies changes in venting output along the Endeavour Segment</em> - <a href="">Available here</a>
+<p>[3] Bemis, K. G., Zhao, M., Sacker, J., &amp; Soule, D. C. (2022): <em>Systematic shift in plume bending direction at Grotto Vent, Main Endeavour Field, Juan de Fuca Ridge implies changes in venting output along the Endeavour Segment</em> - <a href="https://www.frontiersin.org/articles/10.3389/feart.2022.938675/full" target="_blank" target="_blank">Available here</a>
 </p>
-<p>[] Jackson, D., Bemis, K., Xu, G., &amp; Ivakin, A. (2022): <em>Sonar observation of heat flux of diffuse hydrothermal flows.</em> <a href="">Available here</a>
+<p>[4] Bemis, K. G., Rona, P. A., Jackson, D., Jones, C., Silver, D., &amp; Mitsuzawa, K. (2002): <em>A comparison of black smoker hydrothermal plume behavior at Monolith Vent and at Clam Acres Vent Field: Dependence on source configuration</em> - <a href="https://link.springer.com/article/10.1023/A:1022484931681" target="_blank" target="_blank">Available here</a>
 </p>
-<p>[] Xu, G., Bemis, K., Jackson, D., &amp; Ivakin, A. (2021): <em>Acoustic and In‐Situ Observations of Deep Seafloor Hydrothermal Discharge: An OOI Cabled Array ASHES Vent Field Case Study</em> - <a href="">Available here</a>
+<p>[5] Jackson, D., Bemis, K., Xu, G., &amp; Ivakin, A. (2022): <em>Sonar observation of heat flux of diffuse hydrothermal flows.</em> - <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2021EA001974" target="_blank" target="_blank">Available here</a>
 </p>
-<p>[] Liu, L., Silver, D., &amp; Bemis, K. (2019): <em>Visualizing three-dimensional ocean eddies in web browsers</em> - <a href="">Available here</a>
+<p>[6] Xu, G., Bemis, K., Jackson, D., &amp; Ivakin, A. (2021): <em>Acoustic and In‐Situ Observations of Deep Seafloor Hydrothermal Discharge: An OOI Cabled Array ASHES Vent Field Case Study</em> - <a href="https://www.researchwithrutgers.com/en/publications/acoustic-and-in-situ-observations-of-deep-seafloor-hydrothermal-d" target="_blank" target="_blank">Available here</a>
 </p>
-<p>[] Jackson, D. R., Ivakin, A. N., Xu, G., &amp; Bemis, K. G. (2017): <em>Sonar observation of diffuse hydrothermal flows</em>  - <a href="">Available here</a>
-</p>
-<p>[5] <em>National High Performance Computing Center for Computational Engineering Science</em> (NHR4CES) - <a href="https://www.nhr4ces.de/" target="_blank" target="_blank">Website</a>
-<br>
-[6] <a href="https://db.humanconnectome.org/" target="_blank" target="_blank">https://db.humanconnectome.org/</a>
+<p>[7] <em>National High Performance Computing Center for Computational Engineering Science</em> (NHR4CES) - <a href="https://www.nhr4ces.de/" target="_blank" target="_blank">Website</a>
 </p>
 
 </div>

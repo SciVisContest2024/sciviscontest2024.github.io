@@ -164,7 +164,7 @@
     </li>
     
     <li class="">
-      <a href="#Download%20Data">Download Data</a>
+      <a href="#Download%20Data%20and%20Further%20Resources">Download Data and Further Resources</a>
     </li>
     
     <li class="">
@@ -186,21 +186,26 @@
   <p>The PI Instrument page is found at <a href="https://oceanobservatories.org/pi-instrument/cabled-array-vent-imaging-sonar-covis/" target="_blank" target="_blank">https://oceanobservatories.org/pi-instrument/cabled-array-vent-imaging-sonar-covis/</a>
  . This is the official description of COVIS for the Ocean Observatories Initiative (OOI).
 COVIS data from the OOI deployment can be found at  <a href="http://piweb.ooirsn.uw.edu/covis/" target="_blank" target="_blank">http://piweb.ooirsn.uw.edu/covis/</a>
-. This folder has two subfolders ~/covis/data/ and ~/covis/processed/.<br>
-The raw data is under ~/covis/data/ which contains ~BROWSE/, ~COVIS/, ~COVIS-ENG/, and ~INPUT/.  All COVIS raw data files come in a compressed file folder (&hellip;tar.gz).
-BROWSE - data organized in folders by year and julian day  (same data as in COVIS and INPUT but reorganized in folders rather than just a long list)
-COVIS - incoming data from 2018 to 2020
-COVIS-ENG &ndash; information on COVIS operations but only 2018-2020
-INPUT - incoming data from 2020 to 2023
-The processed data is under ~/covis/processed/
-2019 Thermistor Data/ - temperature data from small arrays of RBR solo thermistors set within COVIS’s field of vision - this is a curated data set related to a particular publication (Jackson et al., 2022)
-Automatic_Postprocessing_Version3.2/ - processed data 2020 - 2023
-COVIS_data_structure_description_diffuse_rev1.pdf - description of the processed data files (.mat format containing a single structure called covis) for the diffuse mode results
-COVIS_data_structure_description_imaging_rev1.pdf - description of the processed data files (.mat format containing a single structure called covis) for the imaging mode results
-latest/ - processed data 2020 - 2023 - seems to be same as Automatic_Postprocessing_Version3.2/ but was probably intended to be more temporary</p>
+. This folder has two subfolders ~/covis/data/ and ~/covis/processed/.</p>
+<p>The raw data is under ~/covis/data/ which contains ~BROWSE/, ~COVIS/, ~COVIS-ENG/, and ~INPUT/.  All COVIS raw data files come in a compressed file folder (&hellip;tar.gz).</p>
+<ul>
+<li><strong>BROWSE</strong> - data organized in folders by year and julian day  (same data as in COVIS and INPUT but reorganized in folders rather than just a long list)</li>
+<li><strong>COVIS</strong> - incoming data from 2018 to 2020</li>
+<li><strong>COVIS-ENG</strong> &ndash; information on COVIS operations but only 2018-2020</li>
+<li><strong>INPUT</strong> - incoming data from 2020 to 2023</li>
+</ul>
+<p>The processed data is under ~/covis/processed/</p>
+<ul>
+<li><strong>2019 Thermistor Data/</strong> - temperature data from small arrays of RBR solo thermistors set within COVIS’s field of vision - this is a curated data set related to a particular publication <a href="#References and Acknowledgments">[ 5 ]</a>
+</li>
+<li><strong>Automatic_Postprocessing_Version3.2/</strong> - processed data 2020 - 2023</li>
+<li><strong>COVIS_data_structure_description_diffuse_rev1.pdf</strong> - description of the processed data files (.mat format containing a single structure called covis) for the diffuse mode results</li>
+<li><strong>COVIS_data_structure_description_imaging_rev1.pdf</strong> - description of the processed data files (.mat format containing a single structure called covis) for the imaging mode results</li>
+<li><strong>latest/</strong> - processed data 2020 - 2023 - seems to be same as Automatic_Postprocessing_Version3.2/ but was probably intended to be more temporary</li>
+</ul>
 <p>Data collection varies a bit but for 2020-2023, COVIS was collecting diffuse mode data hourly every day for 6 days and then imaging and doppler mode data hourly on the 7th day. Note that a diffuse map output is also computable from the imaging data so you will see diffuse mode files every day. There is no automatic computation of doppler mode data so those files are empty or missing (but the raw data exists).</p>
-<p>Data file sizes:
-Diffuse files are 325 kb or thereabouts (varies a bit but shouldn’t be much smaller)
+<p><strong>Data file sizes:</strong><br>
+Diffuse files are 325 kb or thereabouts (varies a bit but shouldn’t be much smaller)<br>
 Imaging files are 21.5 Mb or thereabouts</p>
 <p>COVIS code repository: <a href="https://github.com/COVIS-Sonar/postprocessing.git" target="_blank" target="_blank">https://github.com/COVIS-Sonar/postprocessing.git</a>
 .  This has both the operational processing code to get from raw data (including all inputs other than the raw data files) to gridded data as well as some (very basic) visualization options.</p>
