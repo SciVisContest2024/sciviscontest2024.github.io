@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2024 IEEE SciVis Contest</title>
-    <link>http://localhost:1313/</link>
+    <link>https://sciviscontest2024.github.io/</link>
     <description>Recent content on 2024 IEEE SciVis Contest</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 28 Nov 2019 15:14:39 +1000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sciviscontest2024.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Submission Instruction</title>
-      <link>http://localhost:1313/submission/instruction/</link>
+      <link>https://sciviscontest2024.github.io/submission/instruction/</link>
       <pubDate>Thu, 28 Nov 2019 15:14:39 +1000</pubDate>
-      <guid>http://localhost:1313/submission/instruction/</guid>
+      <guid>https://sciviscontest2024.github.io/submission/instruction/</guid>
       <description>&lt;p&gt;Your submission should include:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;A 2-page PDF describing your visualization and analysis techniques. Focus on the techniques you used and results you obtained. Do not waste space on background information or data descriptions. Please follow the &lt;a href=&#34;http://junctionpublishing.org/vgtc/Tasks/camera.html&#34; target=&#34;_blank&#34;&gt;formatting guidelines for the manuscript.&lt;/a&gt;&#xD;&#xA; (you can download LaTeX and Word templates from this site).&lt;/li&gt;&#xA;&lt;li&gt;Images which explain how your visualizations help answering the questions. The images should be appended to the 2-page document (thus, your whole PDF document should have more than 2 pages). The PDF document should be no bigger than 50 MB in size.&lt;/li&gt;&#xA;&lt;li&gt;An MPEG, AVI, or Quicktime video (duration at most 10 minutes) showing the system, methods, or processes in action. This will be most helpful for demonstrating the effectiveness of your approach.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;To submit:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Important Dates</title>
-      <link>http://localhost:1313/submission/dates/</link>
+      <link>https://sciviscontest2024.github.io/submission/dates/</link>
       <pubDate>Thu, 28 Nov 2019 15:14:39 +1000</pubDate>
-      <guid>http://localhost:1313/submission/dates/</guid>
-      <description>&lt;p&gt;We will be following the process of the last years.&lt;br&gt;&#xA;There might be slight changes but the plan is this:&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Dates&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;October 23, 2023&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Official announcement of the 2024 IEEE SciVis Contest at IEEE VIS 2023.&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;July 31, 2024&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Submission Deadline.&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;approx. September, 2024&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Winner notification.&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;approx. October, 2024&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Official announcement of the end results at IEEE VIS 2024.&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;Deadlines are set as 23:59 AOE.&lt;/p&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;div style=&#34;height:  20px&#34;&gt;&lt;/div&gt;&#xD;&#xA;&#xA;&lt;hr&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;div style=&#34;height:  20px&#34;&gt;&lt;/div&gt;</description>
+      <guid>https://sciviscontest2024.github.io/submission/dates/</guid>
+      <description>&lt;p&gt;We will be following the process of the last years.&lt;br&gt;&#xA;There might be slight changes but the plan is this:&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Dates&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;October 23, 2023&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Official announcement of the 2024 IEEE SciVis Contest at IEEE VIS 2023.&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;del&gt;July 31, 2024&lt;/del&gt; August 7, 2024&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Submission Deadline.&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;approx. September, 2024&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Winner notification.&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;approx. October, 2024&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Official announcement of the end results at IEEE VIS 2024.&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;Deadlines are set as 23:59 AOE.&lt;/p&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;div style=&#34;height:  20px&#34;&gt;&lt;/div&gt;&#xD;&#xA;&#xA;&lt;hr&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;div style=&#34;height:  20px&#34;&gt;&lt;/div&gt;</description>
     </item>
     <item>
       <title>Data Description</title>
-      <link>http://localhost:1313/data/datalocation/</link>
+      <link>https://sciviscontest2024.github.io/data/datalocation/</link>
       <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
-      <guid>http://localhost:1313/data/datalocation/</guid>
-      <description>&lt;p&gt;The PI Instrument page is found at &lt;a href=&#34;https://oceanobservatories.org/pi-instrument/cabled-array-vent-imaging-sonar-covis/&#34; target=&#34;_blank&#34;&gt;https://oceanobservatories.org/pi-instrument/cabled-array-vent-imaging-sonar-covis/&lt;/a&gt;&#xD;&#xA; . This is the official description of COVIS for the Ocean Observatories Initiative (OOI).&#xA;COVIS data from the OOI deployment can be found at  &lt;a href=&#34;http://piweb.ooirsn.uw.edu/covis/&#34; target=&#34;_blank&#34;&gt;http://piweb.ooirsn.uw.edu/covis/&lt;/a&gt;&#xD;&#xA;. This folder has two subfolders ~/covis/data/ and ~/covis/processed/.&lt;br&gt;&#xA;The raw data is under ~/covis/data/ which contains ~BROWSE/, ~COVIS/, ~COVIS-ENG/, and ~INPUT/.  All COVIS raw data files come in a compressed file folder (&amp;hellip;tar.gz).&#xA;BROWSE - data organized in folders by year and julian day  (same data as in COVIS and INPUT but reorganized in folders rather than just a long list)&#xA;COVIS - incoming data from 2018 to 2020&#xA;COVIS-ENG &amp;ndash; information on COVIS operations but only 2018-2020&#xA;INPUT - incoming data from 2020 to 2023&#xA;The processed data is under ~/covis/processed/&#xA;2019 Thermistor Data/ - temperature data from small arrays of RBR solo thermistors set within COVIS’s field of vision - this is a curated data set related to a particular publication (Jackson et al., 2022)&#xA;Automatic_Postprocessing_Version3.2/ - processed data 2020 - 2023&#xA;COVIS_data_structure_description_diffuse_rev1.pdf - description of the processed data files (.mat format containing a single structure called covis) for the diffuse mode results&#xA;COVIS_data_structure_description_imaging_rev1.pdf - description of the processed data files (.mat format containing a single structure called covis) for the imaging mode results&#xA;latest/ - processed data 2020 - 2023 - seems to be same as Automatic_Postprocessing_Version3.2/ but was probably intended to be more temporary&lt;/p&gt;</description>
+      <guid>https://sciviscontest2024.github.io/data/datalocation/</guid>
+      <description>&lt;p&gt;The PI Instrument page is found at &lt;a href=&#34;https://oceanobservatories.org/pi-instrument/cabled-array-vent-imaging-sonar-covis/&#34; target=&#34;_blank&#34;&gt;https://oceanobservatories.org/pi-instrument/cabled-array-vent-imaging-sonar-covis/&lt;/a&gt;&#xD;&#xA; . This is the official description of COVIS for the Ocean Observatories Initiative (OOI).&#xA;COVIS data from the OOI deployment can be found at  &lt;a href=&#34;http://piweb.ooirsn.uw.edu/covis/&#34; target=&#34;_blank&#34;&gt;http://piweb.ooirsn.uw.edu/covis/&lt;/a&gt;&#xD;&#xA;. This folder has two subfolders ~/covis/data/ and ~/covis/processed/.&lt;/p&gt;&#xA;&lt;p&gt;The raw data is under ~/covis/data/ which contains ~BROWSE/, ~COVIS/, ~COVIS-ENG/, and ~INPUT/.  All COVIS raw data files come in a compressed file folder (&amp;hellip;tar.gz).&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;BROWSE&lt;/strong&gt; - data organized in folders by year and julian day  (same data as in COVIS and INPUT but reorganized in folders rather than just a long list)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;COVIS&lt;/strong&gt; - incoming data from 2018 to 2020&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;COVIS-ENG&lt;/strong&gt; &amp;ndash; information on COVIS operations but only 2018-2020&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;INPUT&lt;/strong&gt; - incoming data from 2020 to 2023&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The processed data is under ~/covis/processed/&lt;/p&gt;</description>
     </item>
     <item>
       <title>Judges</title>
-      <link>http://localhost:1313/submission/judges/</link>
+      <link>https://sciviscontest2024.github.io/submission/judges/</link>
       <pubDate>Thu, 28 Nov 2019 15:14:39 +1000</pubDate>
-      <guid>http://localhost:1313/submission/judges/</guid>
-      <description>&lt;p&gt;To be announced.&lt;/p&gt;</description>
+      <guid>https://sciviscontest2024.github.io/submission/judges/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Theresa-Marie Rhyne&lt;/strong&gt;, Editor of the Visualization Viewpoints Department of IEEE Computer Graphics &amp;amp; Applications&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Guangyu Xu&lt;/strong&gt;, Applied Physics Laboratory at University of Washington, USA&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Christian de Moustier&lt;/strong&gt;, 10dBx LLC, San Diego, USA&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Del Bohnenstiehl&lt;/strong&gt;, Department of Marine, Earth, and Atmospheric Sciences at NC State University, USA&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Karen Bemis&lt;/strong&gt;, Department of Marine and Coastal Sciences, Rutgers University, USA&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tim Gerrits&lt;/strong&gt;, Cross-Sectional Group Visualization at RWTH Aachen University&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
-      <title>Download Data</title>
-      <link>http://localhost:1313/data/download/</link>
+      <title>Download Data and Further Resources</title>
+      <link>https://sciviscontest2024.github.io/data/download/</link>
       <pubDate>Mon, 11 Feb 2019 19:30:08 +1000</pubDate>
-      <guid>http://localhost:1313/data/download/</guid>
+      <guid>https://sciviscontest2024.github.io/data/download/</guid>
       <description>None</description>
     </item>
     <item>
       <title>References and Acknowledgments</title>
-      <link>http://localhost:1313/data/references/</link>
+      <link>https://sciviscontest2024.github.io/data/references/</link>
       <pubDate>Mon, 11 Feb 2019 19:30:08 +1000</pubDate>
-      <guid>http://localhost:1313/data/references/</guid>
+      <guid>https://sciviscontest2024.github.io/data/references/</guid>
       <description>None</description>
     </item>
   </channel>
